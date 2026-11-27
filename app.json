@@ -20,7 +20,9 @@
     "android": {
       "permissions": [
         "ACCESS_COARSE_LOCATION",
-        "ACCESS_FINE_LOCATION"
+        "ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
       ],
       "adaptiveIcon": {
         "backgroundColor": "#0D1C28",
@@ -57,6 +59,12 @@
       "description": "FlowStock - Abastecimento Inteligente de Bares e Restaurantes",
       "backgroundColor": "#0D1C28",
       "themeColor": "#FFC107"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dc56d31a-f932-41ec-8155-30b08c00fdf9"
+      }
+    },
+    "owner": "ariany-f"
   }
 }

@@ -1,0 +1,73 @@
+name: 📱 Publicar Android (Google Play & APK)
+
+on:
+  workflow_dispatch:
+    inputs:
+      profile:
+        description: 'Tipo de Pacote Android'
+        required: true
+        default: 'production'
+        type: choice
+        options:
+          - production
+          - preview
+      auto_submit:
+        description: 'Enviar automaticamente para o Google Play Console (Trilha de Teste Interno)?'
+        required: true
+        default: false
+        type: boolean
+
+jobs:
+  validate:
+    name: 🔍 Validar Código (TypeScript & Lint)
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Clonar Repositório
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Configurar Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: 📦 Instalar Dependências
+        run: npm ci
+
+      - name: 🔍 Typecheck (TypeScript)
+        run: npx tsc --noEmit
+
+      - name: 🧹 Lint (Expo)
+        run: npx expo lint
+
+  build-android:
+    name: 🤖 Compilar Android
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Clonar Repositório
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Configurar Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: 🚀 Configurar EAS CLI
+        uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      - name: 📦 Instalar Dependências
+        run: npm ci
+
+      - name: 🔨 Compilar Pacote Android no EAS (${{ inputs.profile }})
+        run: |
+          eas build --platform android --profile ${{ inputs.profile }} --non-interactive
+
+      - name: 📤 Submeter para Google Play Store (Teste Interno)
+        if: inputs.auto_submit == true && inputs.profile == 'production'
+        run: |
+          eas submit --platform android --profile production --non-interactive

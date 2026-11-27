@@ -8,11 +8,15 @@
     "userInterfaceStyle": "dark",
     "ios": {
       "supportsTablet": true,
+      "bundleIdentifier": "com.ariany.flowstock",
+      "buildNumber": "1.0.0",
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "O FlowStock precisa da sua localização para encontrar distribuidores de bebidas mais próximos do seu bar."
       }
     },
     "android": {
+      "package": "com.ariany.flowstock",
+      "versionCode": 1,
       "permissions": [
         "ACCESS_COARSE_LOCATION",
         "ACCESS_FINE_LOCATION"

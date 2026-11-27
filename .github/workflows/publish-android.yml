@@ -63,6 +63,7 @@ jobs:
       - name: 🔨 Compilar Pacote Android no EAS (${{ inputs.profile }})
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+          EAS_BUILD_NO_EXPO_GO_WARNING: "true"
         run: |
           eas build --platform android --profile ${{ inputs.profile }} --non-interactive
 

@@ -11,7 +11,7 @@
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "O FlowStock precisa da sua localização para encontrar distribuidores de bebidas mais próximos do seu bar."
       },
-      "bundleIdentifier": "com.flowstock.app",
+      "bundleIdentifier": "br.com.flowstock",
       "buildNumber": "1",
       "config": {
         "usesNonExemptEncryption": false
@@ -29,7 +29,7 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.flowstock.app",
+      "package": "br.com.flowstock",
       "versionCode": 1
     },
     "plugins": [

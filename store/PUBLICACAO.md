@@ -1,8 +1,8 @@
 # Publicação do FlowStock nas lojas
 
 ## Identificadores (definitivos depois do primeiro envio)
-- iOS bundle ID: `com.flowstock.app`
-- Android package: `com.flowstock.app`
+- iOS bundle ID: `br.com.flowstock`
+- Android package: `br.com.flowstock`
 
 ## Metadados sugeridos
 

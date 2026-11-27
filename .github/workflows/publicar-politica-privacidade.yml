@@ -1,12 +1,13 @@
-name: Publicar política de privacidade (FTP)
+name: Publicar política de privacidade (SFTP/FTP)
 
 # Converte docs/privacidade.md em HTML e envia por FTP para o site.
 # Configure em Settings > Secrets and variables > Actions:
-#   FTP_SERVER      ex.: ftp.seusite.com.br
+#   FTP_SERVER      ex.: ftp.seusite.com.br (pode incluir :porta)
 #   FTP_USERNAME    usuário do FTP
 #   FTP_PASSWORD    senha do FTP
 #   FTP_SERVER_DIR  pasta pública no servidor, terminando com / (ex.: public_html/ ou public_html/flowstock/)
-# Opcional (Variables): FTP_PROTOCOL = ftp | ftps (padrão: ftp), FTP_PORT (padrão: 21)
+# Opcional (Variables): FTP_PORT (padrão: 22) e FTP_PROTOCOL = sftp | ftp | ftps
+# (padrão: sftp na porta 22, ftp nas demais)
 
 on:
   push:
@@ -47,15 +48,22 @@ jobs:
           '
           ls -la site
 
-      - name: Enviar por FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ${{ secrets.FTP_SERVER_DIR }}
-          protocol: ${{ vars.FTP_PROTOCOL || 'ftp' }}
-          port: ${{ vars.FTP_PORT || 21 }}
-          local-dir: ./site/
-          dangerous-clean-slate: false
-          state-name: .ftp-deploy-politica.json
+      - name: Enviar por SFTP/FTP
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_SERVER_DIR: ${{ secrets.FTP_SERVER_DIR }}
+          FTP_PROTOCOL: ${{ vars.FTP_PROTOCOL }}
+          FTP_PORT: ${{ vars.FTP_PORT }}
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq lftp >/dev/null
+          # Aceita host com ou sem protocolo/porta (ex.: sftp://host:22, host:22, host)
+          HOST="${FTP_SERVER#*://}"; HOST="${HOST%%/*}"
+          PORT="${FTP_PORT}"
+          if [[ "$HOST" == *:* ]]; then PORT="${PORT:-${HOST##*:}}"; HOST="${HOST%%:*}"; fi
+          PORT="${PORT:-22}"
+          PROTO="${FTP_PROTOCOL:-}"
+          if [ -z "$PROTO" ]; then if [ "$PORT" = "22" ]; then PROTO=sftp; else PROTO=ftp; fi; fi
+          echo "Enviando via $PROTO para porta $PORT, pasta '${FTP_SERVER_DIR}'"
+          lftp -e "set net:timeout 20; set net:max-retries 2; set sftp:auto-confirm yes; set ftp:ssl-allow yes; set ssl:verify-certificate no;             open -u \"$FTP_USERNAME\",\"$FTP_PASSWORD\" -p $PORT $PROTO://$HOST;             cd \"${FTP_SERVER_DIR:-.}\" || mkdir -p \"${FTP_SERVER_DIR}\"; cd \"${FTP_SERVER_DIR:-.}\";             put site/politica-de-privacidade.html; ls politica-de-privacidade.html; bye"

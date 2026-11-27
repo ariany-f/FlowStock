@@ -24,6 +24,32 @@ export const supabase = createClient(
 export const isSupabaseConfigured = hasValidSupabaseKeys;
 
 /**
+ * Exclui definitivamente a conta do usuário autenticado no Supabase.
+ * Chama a função RPC `delete_user_account` (ver SUPABASE_SCHEMA_SQL), que roda
+ * com `security definer` e remove o registro em auth.users do próprio usuário
+ * (auth.uid()). Os dados em public.users / public.bars caem em cascata.
+ * Exigência da Apple (Guideline 5.1.1(v)) e do Google Play para apps com cadastro.
+ *
+ * Sem Supabase configurado (modo demo) não faz nada: a exclusão é apenas local.
+ */
+export const deleteSupabaseAccount = async (): Promise<void> => {
+  if (!isSupabaseConfigured) return;
+
+  const { data: sessionData } = await supabase.auth.getSession();
+  if (!sessionData.session) {
+    // Sem sessão ativa no Supabase (ex.: login demo local), nada a excluir remotamente.
+    return;
+  }
+
+  const { error } = await supabase.rpc('delete_user_account');
+  if (error) {
+    throw new Error(`Não foi possível excluir a conta no servidor: ${error.message}`);
+  }
+
+  await supabase.auth.signOut();
+};
+
+/**
  * Script SQL para inicialização do Supabase caso o usuário crie um projeto novo.
  * Pode ser exibido no painel admin para o usuário copiar e colar no SQL Editor do Supabase com 1 clique!
  */
@@ -119,4 +145,33 @@ create table if not exists public.orders (
   delivery_notes text,
   created_at timestamp with time zone default timezone('utc'::text, now())
 );
+
+-- 6. Exclusão de conta pelo próprio usuário (exigência Apple / Google Play)
+-- O app chama supabase.rpc('delete_user_account'). Remove o usuário autenticado
+-- de public.users (bares caem em cascata) e de auth.users.
+-- Pedidos são mantidos para fins fiscais, desvinculados do bar excluído.
+alter table public.orders drop constraint if exists orders_bar_id_fkey;
+alter table public.orders
+  add constraint orders_bar_id_fkey foreign key (bar_id)
+  references public.bars(id) on delete set null;
+
+create or replace function public.delete_user_account()
+returns void
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  uid uuid := auth.uid();
+begin
+  if uid is null then
+    raise exception 'Usuário não autenticado';
+  end if;
+  delete from public.users where id = uid;
+  delete from auth.users where id = uid;
+end;
+$$;
+
+revoke all on function public.delete_user_account() from public, anon;
+grant execute on function public.delete_user_account() to authenticated;
 `;

@@ -66,4 +66,4 @@ jobs:
           PROTO="${FTP_PROTOCOL:-}"
           if [ -z "$PROTO" ]; then if [ "$PORT" = "22" ]; then PROTO=sftp; else PROTO=ftp; fi; fi
           echo "Enviando via $PROTO para porta $PORT, pasta '${FTP_SERVER_DIR}'"
-          lftp -e "set net:timeout 20; set net:max-retries 2; set sftp:auto-confirm yes; set ftp:ssl-allow yes; set ssl:verify-certificate no;             open -u \"$FTP_USERNAME\",\"$FTP_PASSWORD\" -p $PORT $PROTO://$HOST;             cd \"${FTP_SERVER_DIR:-.}\" || mkdir -p \"${FTP_SERVER_DIR}\"; cd \"${FTP_SERVER_DIR:-.}\";             put site/politica-de-privacidade.html; ls politica-de-privacidade.html; bye"
+          lftp -e "set net:timeout 20; set net:max-retries 2; set sftp:auto-confirm yes; set ftp:ssl-allow yes;             open -u \"$FTP_USERNAME\",\"$FTP_PASSWORD\" -p $PORT $PROTO://$HOST;             cd \"${FTP_SERVER_DIR:-.}\" || mkdir -p \"${FTP_SERVER_DIR}\"; cd \"${FTP_SERVER_DIR:-.}\";             put site/politica-de-privacidade.html; ls politica-de-privacidade.html; bye"

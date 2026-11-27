@@ -25,10 +25,10 @@ jobs:
       - name: 📥 Clonar Repositório
         uses: actions/checkout@v4
 
-      - name: ⚙️ Configurar Node.js 20
+      - name: ⚙️ Configurar Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: 'npm'
 
       - name: 📦 Instalar Dependências
@@ -48,26 +48,27 @@ jobs:
       - name: 📥 Clonar Repositório
         uses: actions/checkout@v4
 
-      - name: ⚙️ Configurar Node.js 20
+      - name: ⚙️ Configurar Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: 'npm'
 
-      - name: 🚀 Configurar EAS CLI
-        uses: expo/expo-github-action@v8
-        with:
-          eas-version: latest
-          token: ${{ secrets.EXPO_TOKEN }}
+      - name: 🚀 Instalar EAS CLI Globalmente
+        run: npm install -g eas-cli
 
-      - name: 📦 Instalar Dependências
+      - name: 📦 Instalar Dependências do Projeto
         run: npm ci
 
       - name: 🔨 Compilar Pacote iOS no EAS (${{ inputs.profile }})
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
         run: |
           eas build --platform ios --profile ${{ inputs.profile }} --non-interactive
 
       - name: 📤 Submeter para Apple TestFlight
         if: inputs.auto_submit == true && inputs.profile == 'production'
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
         run: |
           eas submit --platform ios --profile production --non-interactive

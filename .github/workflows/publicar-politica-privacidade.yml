@@ -13,6 +13,7 @@ on:
   push:
     paths:
       - docs/privacidade.md
+      - docs/excluir-conta.md
       - .github/workflows/publicar-politica-privacidade.yml
   workflow_dispatch:
 
@@ -37,14 +38,20 @@ jobs:
           node -e '
             const { marked } = require("marked");
             const fs = require("fs");
-            const md = fs.readFileSync("docs/privacidade.md", "utf8");
-            const html = `<!DOCTYPE html>
+            const pages = [
+              ["docs/privacidade.md", "site/politica-de-privacidade.html", "Política de Privacidade — FlowStock"],
+              ["docs/excluir-conta.md", "site/excluir-conta.html", "Excluir conta — FlowStock"],
+            ];
+            for (const [src, out, title] of pages) {
+              const md = fs.readFileSync(src, "utf8");
+              const html = `<!DOCTYPE html>
           <html lang="pt-BR"><head><meta charset="utf-8">
           <meta name="viewport" content="width=device-width, initial-scale=1">
-          <title>Política de Privacidade — FlowStock</title>
+          <title>${title}</title>
           <style>body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;max-width:760px;margin:0 auto;padding:32px 20px 64px;line-height:1.6;color:#1f2933}h1{font-size:1.8rem}h2{font-size:1.2rem;margin-top:32px}a{color:#0b5cad}</style>
           </head><body>${marked.parse(md)}</body></html>`;
-            fs.writeFileSync("site/politica-de-privacidade.html", html);
+              fs.writeFileSync(out, html);
+            }
           '
           ls -la site
 
@@ -67,4 +74,4 @@ jobs:
           if [ -z "$PROTO" ]; then if [ "$PORT" = "22" ]; then PROTO=sftp; else PROTO=ftp; fi; fi
           export LFTP_PASSWORD="$FTP_PASSWORD"
           echo "Enviando via $PROTO para porta $PORT, pasta '${FTP_SERVER_DIR}'"
-          lftp -e "set net:timeout 20; set net:max-retries 2; set sftp:auto-confirm yes; set ftp:ssl-allow yes;             open --env-password -u \"$FTP_USERNAME\" -p $PORT $PROTO://$HOST;             cd \"${FTP_SERVER_DIR:-.}\" || mkdir -p \"${FTP_SERVER_DIR}\"; cd \"${FTP_SERVER_DIR:-.}\";             put site/politica-de-privacidade.html; cls -l politica-de-privacidade.html; bye"
+          lftp -e "set net:timeout 20; set net:max-retries 2; set sftp:auto-confirm yes; set ftp:ssl-allow yes;             open --env-password -u \"$FTP_USERNAME\" -p $PORT $PROTO://$HOST;             cd \"${FTP_SERVER_DIR:-.}\" || mkdir -p \"${FTP_SERVER_DIR}\"; cd \"${FTP_SERVER_DIR:-.}\";             put site/politica-de-privacidade.html; put site/excluir-conta.html; cls -l politica-de-privacidade.html; bye"

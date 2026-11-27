@@ -10,6 +10,11 @@
       "supportsTablet": true,
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "O FlowStock precisa da sua localização para encontrar distribuidores de bebidas mais próximos do seu bar."
+      },
+      "bundleIdentifier": "com.flowstock.app",
+      "buildNumber": "1",
+      "config": {
+        "usesNonExemptEncryption": false
       }
     },
     "android": {
@@ -23,13 +28,24 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.flowstock.app",
+      "versionCode": 1
     },
     "plugins": [
       [
         "expo-location",
         {
           "locationWhenInUsePermission": "O FlowStock precisa da sua localização para encontrar fornecedores e distribuidores de bebidas mais próximos do seu bar."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "backgroundColor": "#0D1C28",
+          "resizeMode": "contain"
         }
       ]
     ],

@@ -37,6 +37,7 @@ import {
   formatDistance 
 } from '../services/locationService';
 import { AppLanguage, getTranslation } from '../utils/translations';
+import { deleteSupabaseAccount } from '../services/supabase';
 
 interface AppContextType {
   // Auth & Roles
@@ -44,6 +45,7 @@ interface AppContextType {
   isAuthenticated: boolean;
   login: (identifier: string, password?: string) => Promise<boolean>;
   logout: () => Promise<void>;
+  deleteAccount: () => Promise<void>;
   registerBarAndOwner: (data: RegisterOwnerAndBarData) => Promise<{ user: UserAccount; bar: BarEstablishment }>;
   allUsers: UserAccount[];
   switchUserRole: (role: UserRole) => void;
@@ -662,6 +664,36 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     setCart([]);
     await AsyncStorage.setItem(STORAGE_KEYS.CURRENT_USER_ID, 'guest');
     await AsyncStorage.removeItem(STORAGE_KEYS.SELECTED_BAR_ID);
+  };
+
+  /**
+   * Exclui definitivamente a conta do usuário logado (exigência Apple/Google).
+   * Remove no Supabase quando configurado e, localmente, apaga o usuário, os
+   * bares dele, carrinho, favoritos e buscas recentes. Pedidos são mantidos
+   * (já guardam nome/CNPJ do bar) para histórico fiscal do distribuidor.
+   */
+  const deleteAccount = async (): Promise<void> => {
+    if (!currentUser) return;
+    const userId = currentUser.id;
+
+    await deleteSupabaseAccount();
+
+    const updatedUsers = allUsers.filter(u => u.id !== userId);
+    const updatedBars = bars.filter(b => b.ownerId !== userId);
+
+    setAllUsers(updatedUsers);
+    setBars(updatedBars);
+    setFavoriteProductIds([]);
+    setRecentSearches([]);
+    await AsyncStorage.removeMany([
+      STORAGE_KEYS.FAVORITES,
+      STORAGE_KEYS.RECENT_SEARCHES,
+      STORAGE_KEYS.LOCATION,
+      STORAGE_KEYS.CART,
+    ]);
+    await AsyncStorage.setItem(STORAGE_KEYS.USERS, JSON.stringify(updatedUsers));
+    await AsyncStorage.setItem(STORAGE_KEYS.BARS, JSON.stringify(updatedBars));
+    await logout();
   };
 
   const registerBarAndOwner = async (data: RegisterOwnerAndBarData): Promise<{ user: UserAccount; bar: BarEstablishment }> => {
@@ -1341,6 +1373,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         isAuthenticated,
         login,
         logout,
+        deleteAccount,
         registerBarAndOwner,
         allUsers,
         switchUserRole,

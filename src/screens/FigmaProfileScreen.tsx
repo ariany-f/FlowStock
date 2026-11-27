@@ -17,6 +17,7 @@ import { LanguageSelectorModal } from '../components/LanguageSelectorModal';
 import { ReportContentModal } from '../components/ReportContentModal';
 import { PolicyDetailModal, PolicyType } from '../components/PolicyDetailModal';
 import { PixPaymentModal } from '../components/PixPaymentModal';
+import { DeleteAccountModal } from '../components/DeleteAccountModal';
 import { BarEstablishment, Order } from '../types';
 
 interface FigmaProfileScreenProps {
@@ -59,6 +60,7 @@ export const FigmaProfileScreen: React.FC<FigmaProfileScreenProps> = ({
   const [selectedPolicy, setSelectedPolicy] = useState<PolicyType | null>(null);
   const [showInvoicesModal, setShowInvoicesModal] = useState(false);
   const [selectedBoletoOrder, setSelectedBoletoOrder] = useState<Order | null>(null);
+  const [showDeleteAccountModal, setShowDeleteAccountModal] = useState(false);
 
   const pendingInvoices = orders.filter(o => 
     o.paymentMethod === 'boleto_faturado' && 
@@ -364,6 +366,39 @@ export const FigmaProfileScreen: React.FC<FigmaProfileScreenProps> = ({
           </TouchableOpacity>
         </View>
 
+        {/* ======================================================== */}
+        {/* SEÇÃO 4: Conta (Exclusão exigida por Apple / Google Play) */}
+        {/* ======================================================== */}
+        {!isGuest && (
+          <>
+            <Text style={styles.sectionHeading}>Conta</Text>
+            <View style={[styles.menuCard, { backgroundColor: theme.surface, borderColor: theme.border }]}>
+              <TouchableOpacity
+                style={styles.menuRow}
+                onPress={handleLogout}
+                activeOpacity={0.7}
+              >
+                <Ionicons name="log-out-outline" size={20} color={iconColor} style={styles.menuIcon} />
+                <Text style={[styles.menuTitle, { color: theme.text }]}>Sair da Conta</Text>
+                <Ionicons name="chevron-forward" size={16} color={chevronColor} />
+              </TouchableOpacity>
+
+              <View style={[styles.rowDivider, { backgroundColor: theme.border }]} />
+
+              <TouchableOpacity
+                style={styles.menuRow}
+                onPress={() => setShowDeleteAccountModal(true)}
+                activeOpacity={0.7}
+                accessibilityRole="button"
+              >
+                <Ionicons name="trash-outline" size={20} color="#EF4444" style={styles.menuIcon} />
+                <Text style={[styles.menuTitle, { color: '#EF4444' }]}>Excluir Conta</Text>
+                <Ionicons name="chevron-forward" size={16} color="#EF4444" />
+              </TouchableOpacity>
+            </View>
+          </>
+        )}
+
         <View style={{ height: 40 }} />
       </ScrollView>
 
@@ -436,6 +471,22 @@ export const FigmaProfileScreen: React.FC<FigmaProfileScreenProps> = ({
                 </TouchableOpacity>
               )}
 
+              {/* Exclusão de conta (Apple Guideline 5.1.1(v) / Google Play) */}
+              {!isGuest && (
+                <TouchableOpacity
+                  style={[styles.modalCloseBtn, { backgroundColor: 'transparent', borderWidth: 1, borderColor: '#EF4444', marginTop: 0, marginBottom: 10 }]}
+                  onPress={() => {
+                    setShowProfileModal(false);
+                    setShowDeleteAccountModal(true);
+                  }}
+                  activeOpacity={0.85}
+                >
+                  <Text style={[styles.modalCloseBtnText, { color: '#EF4444' }]}>
+                    Excluir Minha Conta
+                  </Text>
+                </TouchableOpacity>
+              )}
+
               <TouchableOpacity 
                 style={[styles.modalCloseBtn, { backgroundColor: isDarkMode ? '#172738' : '#F1F5F9' }]}
                 onPress={() => setShowProfileModal(false)}
@@ -446,6 +497,11 @@ export const FigmaProfileScreen: React.FC<FigmaProfileScreenProps> = ({
           </View>
         </TouchableOpacity>
       </Modal>
+
+      <DeleteAccountModal
+        visible={showDeleteAccountModal}
+        onClose={() => setShowDeleteAccountModal(false)}
+      />
 
       {/* ========================================================================= */}
       {/* MODAL 2: CUPONS PROMOCIONAIS (COUPON)                                     */}

@@ -1,0 +1,1941 @@
+{
+  "manifest-format-version": 6,
+  "state": "unmodified",
+  "uxdesign#disableNavigation": "false",
+  "uxdesign#accessControl": "public",
+  "id": "0dbd884a-1a05-4ce8-8bdb-2caa2932cc87",
+  "uxdesign#modifiedDate": "1756845018837",
+  "children": [
+    {
+      "path": "artwork",
+      "name": "artwork",
+      "id": "5d4c3fb9-2a10-4ec1-b735-0e28b6d6dbc1",
+      "children": [
+        {
+          "path": "pasteboard",
+          "name": "pasteboard",
+          "id": "e35564e2-5717-464b-8191-081a2bb27109"
+        },
+        {
+          "path": "artboard-a2bb0cce-44d7-420d-a311-c333bd2e0526",
+          "name": "Artboard – 1",
+          "id": "f88f6e31-5eb7-456f-a276-1b5eb1b49756",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "cc482a67-3997-4af2-9e5c-63a559f88028",
+              "components": [
+                {
+                  "length": 52300,
+                  "version": "0",
+                  "etag": "\"b323428f-fd20-410c-8c37-22f3f9fdb279\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "1356ab15-8cf5-4ec8-8f11-55191963ae86",
+                  "md5": "lNZI6dpdT/hdNJwHbM9KSA==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "uxdesign#bounds": {
+            "height": 495,
+            "width": 5018,
+            "y": -749,
+            "x": -46
+          },
+          "components": [
+            {
+              "length": 32298,
+              "version": "0",
+              "etag": "\"32a08e0d-a1b4-4e16-aa20-7a67ce00cc42\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "e059df62-533e-4b47-b536-36d489147651",
+              "md5": "GFJKK10Pgw218Y2bSJaXmA==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ]
+        },
+        {
+          "path": "artboard-902a7cb3-74ba-4322-8c21-4c1f8f20db31",
+          "name": "iPhone 14 Pro Max – 9",
+          "id": "6c229e83-fdc0-43d4-b8f2-98bdd1322f13",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "31d7070a-6dc3-449c-a803-fe788cfedc19",
+              "components": [
+                {
+                  "length": 34058,
+                  "version": "0",
+                  "etag": "\"e8481612-a939-426e-8f2b-e08ec4a8eef7\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "1eba5a12-18ab-4cc9-b409-befe4abcd2bc",
+                  "md5": "DS7eb1HDWUAifimWpyhLeQ==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 51192,
+              "version": "0",
+              "etag": "\"12a05dcd-f277-4170-8b20-ccaca6bb436b\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "902069ea-c130-413e-91e8-f770505f6363",
+              "md5": "ZHaQebfQ4kNWmgIRwH2CZA==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": -554,
+            "x": -923
+          }
+        },
+        {
+          "path": "artboard-66bb05be-b785-4e7c-8b89-b299e029c35b",
+          "name": "iPhone 14 Pro Max – 13",
+          "id": "5ee48f8a-c280-48e0-a778-f6a5ba207a7a",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "743cc5d8-aaf1-49e3-aeb8-9122e8a6e85a",
+              "components": [
+                {
+                  "length": 154754,
+                  "version": "0",
+                  "etag": "\"d3fbf6bb-56b5-4bbd-8247-528f36cb2d7f\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "433e9eae-7250-4c39-9abd-6654421e2860",
+                  "md5": "P4wV60wIoaJOJSM2b3bklg==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 76030,
+              "version": "0",
+              "etag": "\"b3967b64-8e12-4af0-bc3f-9d3578fc1352\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "6f293772-1e8c-4c9e-b222-2065f11cbb01",
+              "md5": "+cpt+zpMYfBA8KT/+UbYKg==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": -526,
+            "x": -2781
+          }
+        },
+        {
+          "path": "artboard-58ed09d1-1a0b-4052-b17c-9a1f228558bd",
+          "name": "iPhone 14 Pro Max – 2",
+          "id": "b4a2dfc8-6da9-402a-902d-57b93533310a",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "a2c979cd-3985-47fc-8314-468c126efc51",
+              "components": [
+                {
+                  "length": 50610,
+                  "version": "0",
+                  "etag": "\"9063ba75-c3b5-4c2a-8346-e4d1d1345ed1\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "90f118d3-79f2-4440-b9f5-6eb1a477eaaf",
+                  "md5": "/OhQqZS75G5npy32iFxz9g==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 13453,
+              "version": "0",
+              "etag": "\"b0898533-bf81-4f0e-8d62-7616bc33a80b\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "b8e34f9d-6bc3-4656-889b-0600b2f011f2",
+              "md5": "qp3IbKFsbZLMSgOOSEJilw==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": -526,
+            "x": -2083
+          }
+        },
+        {
+          "path": "artboard-a394875b-33cf-4737-ac28-a0dfbd8b6e50",
+          "name": "iPhone 14 Pro Max – 4",
+          "id": "a716f972-9e4d-4686-ad11-fc9633e69b90",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "21ed131c-fc4d-41e7-9b19-36fa43ccc302",
+              "components": [
+                {
+                  "length": 24715,
+                  "version": "0",
+                  "etag": "\"d410f3e5-4a0b-4475-9de7-3c7cc2fd9b0c\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "14512990-d96a-4762-9d32-dabe5c05e500",
+                  "md5": "i6wzLfoaMK+UEdE4Tp50qA==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 13009,
+              "version": "0",
+              "etag": "\"8300a3e8-1f5d-496f-a3df-273f08e87dd8\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "3d06b609-f1ac-49a6-bb8a-56799d9a034b",
+              "md5": "y4/UPkGRfDC+I+QhVba9CQ==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": -526,
+            "x": -1539
+          }
+        },
+        {
+          "path": "artboard-f1bf9006-eaa4-41fc-8e3d-8899443a1763",
+          "name": "iPhone 14 Pro Max – 3",
+          "id": "3bd83ca2-6c82-4054-bf94-b4e1a544bb84",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "d8509348-5907-4095-b10d-28276aaf9ee8",
+              "components": [
+                {
+                  "length": 26392,
+                  "version": "0",
+                  "etag": "\"94de746a-1ebb-4028-ba2c-0bbba71bcb1d\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "c4cc1e8c-63f9-4890-9ca8-a93fafb83a27",
+                  "md5": "Xz3SizcNVWwgKtfnxiVuvg==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 8318,
+              "version": "0",
+              "etag": "\"53f86286-0fb8-4134-be66-5f4881b6e4a9\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "28167b9f-65ab-421a-bb9b-3a35fed43b8a",
+              "md5": "APs1TTWNhzRq+WxV9y7IWw==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 148,
+            "x": 748
+          }
+        },
+        {
+          "path": "artboard-39c51816-9a90-4a19-88b1-a629f6dc7884",
+          "name": "iPhone 14 Pro Max – 5",
+          "id": "b18bfdb8-3fd2-4198-8fe8-8980331a29ba",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "86eb142a-9af7-4622-aa3a-5dd7c1d040cb",
+              "components": [
+                {
+                  "length": 51877,
+                  "version": "0",
+                  "etag": "\"09566f3c-db8e-45af-886a-31da481ab386\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "74f8d592-a526-4ea2-87b2-adee29b9fbee",
+                  "md5": "amM65SZ0thma7dWf4+r69g==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 13515,
+              "version": "0",
+              "etag": "\"a75976bb-eb3d-4860-90b1-35d432f628d9\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "9779ba65-a2bb-4d33-be6e-d15b464a695e",
+              "md5": "vdDmJ3wAtiMU900xTOXaYQ==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 528,
+            "x": -2083
+          }
+        },
+        {
+          "path": "artboard-561ce03f-112e-496b-87e8-4656271de570",
+          "name": "iPhone 14 Pro Max – 6",
+          "id": "f827a26d-cc68-45f4-b3fc-bf9827e75cdc",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "d0c66205-181d-4cd1-9e8d-6cdf79d9c5c2",
+              "components": [
+                {
+                  "length": 31191,
+                  "version": "0",
+                  "etag": "\"eada324f-ffcc-41e9-b4c5-e214d460a1d6\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "8bd02529-da3d-4a99-9b5e-09cfeaaee1d2",
+                  "md5": "nyWzq6YhvQEt3IeBWGhqIg==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 47326,
+              "version": "0",
+              "etag": "\"30943651-1d55-4bd5-8dd3-17443c00e0b8\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "0aa10fce-75f1-4aa7-ae5b-61ba65f4af1a",
+              "md5": "iD8gCbTZi0xTol1wkdq/MA==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 528,
+            "x": -1503
+          }
+        },
+        {
+          "path": "artboard-1228e7da-6f61-48bf-bddf-993462964cba",
+          "name": "iPhone 14 Pro Max – 7",
+          "id": "4f0fad55-309f-4ecf-92ea-adb358918ecd",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "1104b6e9-c70d-4d4d-821c-2435693439c5",
+              "components": [
+                {
+                  "length": 25437,
+                  "version": "0",
+                  "etag": "\"6757de02-04f0-456d-b23c-ef85ba88c59e\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "cdecaa60-7198-4ebc-8ec0-4e946b45e7fc",
+                  "md5": "YNX6eZCutuynHCyaWq7umA==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 58506,
+              "version": "0",
+              "etag": "\"18276972-7722-4491-a85c-3d600e4a8ac1\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "a4786bd6-1a05-4ab3-ba4e-83a0b54b3222",
+              "md5": "koVHxteIKlU/b9zHROB8Xw==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 528,
+            "x": -923
+          }
+        },
+        {
+          "path": "artboard-9c94ec62-1c42-4205-87b7-f6f8e388fab0",
+          "name": "iPhone 14 Pro Max – 1",
+          "id": "43145ec8-42d4-4bab-a09e-cefae8045495",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "848ceb7c-eee1-429f-ab6f-4f8fa64b7dec",
+              "components": [
+                {
+                  "length": 18038,
+                  "version": "0",
+                  "etag": "\"3e2d6dbc-cc4e-4ab7-a3a1-109151c74535\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "a21520d2-a665-4def-a077-0c3ad05e8100",
+                  "md5": "UYg4Opyj0Ao7ZeLopmflDw==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 11154,
+              "version": "0",
+              "etag": "\"e6ca9c3b-f3e7-426a-b411-2259a3e899cb\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "451c7f8f-9575-420e-b268-b20ce86dc37d",
+              "md5": "4QL5v9T8Rc6SZnNZzi3b7A==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 528,
+            "x": -4
+          }
+        },
+        {
+          "path": "artboard-628d4544-63e9-4a1f-9716-285f755925ef",
+          "name": "Info da Empresa (Bar)",
+          "id": "50801b66-7e15-42f7-a62b-ca796ec32d2f",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "e3b79b71-681b-46b2-af42-e54361ad42e8",
+              "components": [
+                {
+                  "length": 63874,
+                  "version": "0",
+                  "etag": "\"8cd9b46f-ed3d-46db-a901-12b5115bbe7c\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "a432ce67-8fcc-4642-9432-c2cd2b00d9a8",
+                  "md5": "k31nzhd5upaTu7TeBk1uJw==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 18857,
+              "version": "0",
+              "etag": "\"42410928-96ec-4ac3-a095-a7dd60dd0043\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "a9c7cfd8-2741-4483-8481-249486bc5e4d",
+              "md5": "tJIc57PP3dYE5fXvuh8gJA==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 1243,
+            "x": 748
+          }
+        },
+        {
+          "path": "artboard-08cce365-8ef0-4618-b282-64412ceab424",
+          "name": "Endereço da Empresa (Bar)",
+          "id": "69162b75-b67a-438f-a1a5-c15cc00791a6",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "e4fbbc4a-1bf9-4212-8e23-59843bfaac96",
+              "components": [
+                {
+                  "length": 51326,
+                  "version": "0",
+                  "etag": "\"91da38b0-fc9d-4b6c-a619-a0a6864caaf7\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "c23d9906-f78d-4879-9294-5d1956a1d088",
+                  "md5": "yMs1uFX+Musi5D8kkoRjJw==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 16839,
+              "version": "0",
+              "etag": "\"c577e1ee-085c-4e24-b9b8-8f9795c1e746\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "1d63bd5b-9347-48ee-b985-8d3453ca8aae",
+              "md5": "7NzwJNa7zL51YDmnuPe8Yg==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 1243,
+            "x": 1248
+          }
+        },
+        {
+          "path": "artboard-e841b7a1-c212-4bb3-ad82-b289f72ff4d4",
+          "name": "Info do Responsável",
+          "id": "025d9f0a-7aeb-4944-b5fb-9c056ec3ab9d",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "211dc3b6-ce88-462a-9efd-6eda77e95d83",
+              "components": [
+                {
+                  "length": 45854,
+                  "version": "0",
+                  "etag": "\"24207b6b-0c5a-4a26-9b07-f2c8e840557d\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "724762b4-340d-407e-b3b3-a425714f1bdd",
+                  "md5": "w0pFk+o+NNxmZu3Y13eWPw==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 16391,
+              "version": "0",
+              "etag": "\"46b7b4b7-ccda-49ad-8bcc-4e52b89c5a82\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "c495ceb0-499d-4dc8-869d-f9a09ec9eae8",
+              "md5": "1EiRjAP9YwrXSjSB8AzebQ==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 1243,
+            "x": 1748
+          }
+        },
+        {
+          "path": "artboard-509e2b64-639c-478a-9d00-6477ed67e815",
+          "name": "Verificação de crédito",
+          "id": "7b0c0656-150a-48b0-b4fb-861ddd5023ce",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "32f2731f-975f-4b0d-8c5b-5c272a26ccd5",
+              "components": [
+                {
+                  "length": 94758,
+                  "version": "0",
+                  "etag": "\"7505b6df-9c57-448c-a74d-f6b69fa06479\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "b78b513b-57f0-43f9-931e-47447ac4384f",
+                  "md5": "F+cPzqKw6uvlcBrtauH6lQ==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 25062,
+              "version": "0",
+              "etag": "\"2235068d-f26a-489d-8f90-550d051527ef\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "8f9ef353-f4ce-481b-a670-08a0c8d2bac5",
+              "md5": "Pp6iRBPPfypB0Fm57uzjfQ==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 1243,
+            "x": 2248
+          }
+        },
+        {
+          "path": "artboard-6f29c0d0-01a8-495f-a96b-8b19e23c50de",
+          "name": "Verificação de crédito – 1",
+          "id": "101eff46-9a8c-449e-9163-2b69607ffc1d",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "efc82e03-1b8f-487f-b662-b78acd87e3d1",
+              "components": [
+                {
+                  "length": 66167,
+                  "version": "0",
+                  "etag": "\"48e0bb6a-b630-478f-af66-e9c0516ff3e8\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "64c48dfb-3609-4696-9292-c18580502839",
+                  "md5": "QnE6/Z9JTVPpMBhdE1iDlA==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 19707,
+              "version": "0",
+              "etag": "\"78ec0923-f141-4f82-96bd-712ec836fafa\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "7dc654ee-6768-4971-b8b0-3aa49beab740",
+              "md5": "gRSftLitdMlmpwMbQosC5A==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 1243,
+            "x": 2748
+          }
+        },
+        {
+          "path": "artboard-f8220363-f263-4f87-b0e1-9e63a021f9ae",
+          "name": "Dados para Acesso à Plataforma",
+          "id": "b63b9a9a-9a18-47af-82ff-773e8a645006",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "13ce6f37-00e7-4dc3-ac2f-4e9318f602bd",
+              "components": [
+                {
+                  "length": 53852,
+                  "version": "0",
+                  "etag": "\"44f5a83c-9737-47db-9a6e-010c4a8d9f1c\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "616c18c9-ff04-4e3c-9578-06016547d924",
+                  "md5": "SM0+iV0H6EI5BjOjnNHWuw==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 15647,
+              "version": "0",
+              "etag": "\"af9f9ab1-924b-4d05-a95c-077be53a4470\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "df28406c-176f-41fe-a1c2-06e5d23b0f42",
+              "md5": "SIROew+LPejjKz+ODC82LA==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 1243,
+            "x": 3248
+          }
+        },
+        {
+          "path": "artboard-c339bbb8-e014-4196-9e47-be55819ae686",
+          "name": "iPhone 14 Pro Max – 10",
+          "id": "05e4fa5a-54f9-467b-a87f-b7ec0aea1457",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "11874059-9751-4193-9d8b-81f09ca70ff0",
+              "components": [
+                {
+                  "length": 192322,
+                  "version": "0",
+                  "etag": "\"23a236e3-6b5a-4e51-8f9d-c0525d222662\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "93d9d42c-0365-409d-a357-df6a8cba4f0c",
+                  "md5": "FyjMvlqO+d02kq7OtdefKQ==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 25923,
+              "version": "0",
+              "etag": "\"3d6e35a0-eafe-4b51-a715-dde4d85e1beb\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "3067ae6f-c173-4900-989b-1d0e6d73586b",
+              "md5": "s++R3QKqdT+RIw4oyTKkvw==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 1582,
+            "x": -2083
+          }
+        },
+        {
+          "path": "artboard-c1510ed1-f723-4a20-9a7b-881aec76279b",
+          "name": "iPhone 14 Pro Max – 11",
+          "id": "b84eebdc-ae50-48b5-9cd1-fcb64a821a60",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "ac511c02-b8d6-4ab9-83e0-6042d3b64c93",
+              "components": [
+                {
+                  "length": 138004,
+                  "version": "0",
+                  "etag": "\"2ef5261c-5a78-42de-a245-b0374d141f37\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "dae1fa84-463b-456b-94c3-3d2747583880",
+                  "md5": "hj88BT9+H7YsQqTMMTDeVw==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 35242,
+              "version": "0",
+              "etag": "\"007c23ac-59a1-4f40-b09e-825f4768256e\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "5d4b9b9c-60f2-487a-a655-7069bef33866",
+              "md5": "b3wgpbjWGwnAkqdMIcS3XA==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 1582,
+            "x": -1503
+          }
+        },
+        {
+          "path": "artboard-74a4fe46-17ea-4c73-b485-69afa1ffa7fb",
+          "name": "iPhone 14 Pro Max – 12",
+          "id": "42b45905-ce71-447b-9e5f-a1fe8c0f8e79",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "fab9e273-54ac-4ff8-872a-98c089dc34d0",
+              "components": [
+                {
+                  "length": 167867,
+                  "version": "0",
+                  "etag": "\"cae16748-3218-4ee4-8060-6d65d31ae024\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "00ad2e5c-c4c2-4273-bd4c-5f782abbc224",
+                  "md5": "Y3TejIekh9yUoToWwyUwvA==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 22028,
+              "version": "0",
+              "etag": "\"be960195-32f6-40ce-9f8e-52f96abc2b6e\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "2621c64c-9994-4a46-be48-284e579a5eeb",
+              "md5": "sz7M/jyqPNqkpZ9g1vpQ3A==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 1582,
+            "x": -923
+          }
+        },
+        {
+          "path": "artboard-dc2d5418-b09c-4f2b-aab8-c64bb22b575e",
+          "name": "Fornecedor – 1",
+          "id": "bd0bd0e9-29c5-4bcb-8b29-c8d59020c919",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "e7eee07e-63f0-4aaf-8c37-e2e5ae49655e",
+              "components": [
+                {
+                  "length": 99454,
+                  "version": "0",
+                  "etag": "\"73993d26-4f65-4e0e-826a-dec591fd1d99\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "98ab261d-6ee6-40f5-9879-40f5b159ccee",
+                  "md5": "GaBGeTf43YIsKNQj9I7KMQ==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 15780,
+              "version": "0",
+              "etag": "\"42932ffc-8209-480a-bbe7-f9114d130fe0\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "3f5b0dbe-45e2-45c2-a71b-36ade074436d",
+              "md5": "eE1HZGawEqpEiFvguTRL4w==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 2761,
+            "x": -4
+          }
+        },
+        {
+          "path": "artboard-bab7d118-07a2-457f-8ac6-31d79c48c58d",
+          "name": "iPhone 14 Pro Max – 8",
+          "id": "433b8f43-4ba6-400f-8eac-1ef0033e0e42",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "5bbca99b-36fa-4b1d-9338-4058ae00c484",
+              "components": [
+                {
+                  "length": 84891,
+                  "version": "0",
+                  "etag": "\"c1fe891f-f6c0-4bf6-8038-91faf7367ee7\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "8de7382c-fc0a-459b-ba67-3651dcb678b0",
+                  "md5": "wOzTDL56S4LFlKDHbXUEeg==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 16567,
+              "version": "0",
+              "etag": "\"6805dbab-dc1e-46c5-bebf-61d089f40f43\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "52d67f7d-aae7-46c5-b689-afc7e68cf660",
+              "md5": "APyHwTVEirSPh4uSGkcWSQ==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 3061,
+            "x": -2284
+          }
+        },
+        {
+          "path": "artboard-03aa6da0-30c8-429a-854b-2f9281864a89",
+          "name": "Home",
+          "id": "f0a6e60b-65cf-4bf9-9047-7395ddf0d33a",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "2d01cd8d-3559-497f-ac29-05975cbbaf88",
+              "components": [
+                {
+                  "length": 45659,
+                  "version": "0",
+                  "etag": "\"f170fae3-9ce1-44f3-9d7c-533e88f5aaf0\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "1fb8c9e3-cbef-4f6d-b4ed-4e8706a0e204",
+                  "md5": "S9we9wefO10cfFSXC/NKvw==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 8554,
+              "version": "0",
+              "etag": "\"08b75a29-947a-4b09-b918-0267760aea63\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "e797763c-ae76-442b-b101-1b6f2498e291",
+              "md5": "CbRIuUuAQl3R2La2beWoDw==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 3887,
+            "x": -4
+          }
+        },
+        {
+          "path": "artboard-e24317de-4889-488c-8599-61a6305445e2",
+          "name": "Fornecedor",
+          "id": "d3bd782d-ead3-46a9-b140-6966313aaa68",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "117e64ec-dfd9-4e8a-af84-900a6ffbb248",
+              "components": [
+                {
+                  "length": 99478,
+                  "version": "0",
+                  "etag": "\"9c9c6597-5f6a-477c-be1e-c0145e1f646e\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "dbe13788-6353-4519-a7ee-197db12af697",
+                  "md5": "mvzeJ+9rPVSAAqw2PXhjCQ==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 15780,
+              "version": "0",
+              "etag": "\"6c2e21d5-3543-4880-9e6b-f5a25ff14d29\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "c03adfae-f49d-4db5-b151-7da6d2b1b39e",
+              "md5": "eE1HZGawEqpEiFvguTRL4w==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 3887,
+            "x": 748
+          }
+        },
+        {
+          "path": "artboard-75f0aa08-b0a9-48fa-a440-bfebfa21f5b6",
+          "name": "Fornecedor  segunda opção",
+          "id": "e3955fe4-b44e-40d5-80e9-25e757397dc5",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "d34ddfb2-e952-4c92-8a8b-ed29249b0545",
+              "components": [
+                {
+                  "length": 94511,
+                  "version": "0",
+                  "etag": "\"29899c2d-b149-4967-82cb-b7c9a0c9aa3f\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "6c32ec7b-683e-4b09-9b2e-93acc0db8745",
+                  "md5": "qPeQ+RJha4u1PdRlWBlGhQ==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 14504,
+              "version": "0",
+              "etag": "\"05ee60bf-b1e5-45bb-b3fb-929558c5449c\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "6877f1e3-12f8-4af8-b156-b8daa02a3b67",
+              "md5": "SE0LWkagOvN8RIhlieeZUg==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 3887,
+            "x": 1318
+          }
+        },
+        {
+          "path": "artboard-b8651ee4-58d4-4e54-9c66-e6463e2f4fcf",
+          "name": "Pedidos",
+          "id": "89f7bb20-8662-4330-a7af-7f3e2d7ee5e7",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "a8485761-3706-49d7-897c-1a3e62dbf48b",
+              "components": [
+                {
+                  "length": 121553,
+                  "version": "0",
+                  "etag": "\"54728087-88e2-4313-8147-243a74c5c482\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "68e4ef92-7a78-4118-8083-b1c8e1ad01de",
+                  "md5": "AZID1KeHLDbE7kQ4eKdraw==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 18958,
+              "version": "0",
+              "etag": "\"71d1c32f-cfa5-4348-85c0-876b1fc8b1b3\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "46daa76c-f2c1-4a92-892d-0b68370c82c0",
+              "md5": "wBlHsCEj6KH2GOx0DYA6Hg==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 5112,
+            "x": -4
+          }
+        },
+        {
+          "path": "artboard-2f51b6c6-b2d4-45bd-bfe6-e1b5643d4998",
+          "name": "Sacola",
+          "id": "85e967e8-7cbe-4976-ba0b-55c38f96b370",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "3a6b458e-24d0-44a8-abbb-6bc80909044d",
+              "components": [
+                {
+                  "length": 109969,
+                  "version": "0",
+                  "etag": "\"24d05abb-5f3f-49b0-86fa-aab57e961a69\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "6cdd27e3-8de9-45c5-830d-ba3a37aaf6b6",
+                  "md5": "LZexxPUeola6mSGcFsdHzw==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 13822,
+              "version": "0",
+              "etag": "\"cd1ef0d3-9807-427b-9c18-c8b9f5f5e696\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "12ff102a-6c83-4f45-8036-de09d3916d6a",
+              "md5": "U1dwj+T6+qemN06e50Decg==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 6163,
+            "x": -4
+          }
+        },
+        {
+          "path": "artboard-04018152-3dc6-4849-b5d5-63361d970519",
+          "name": "Sacola / Entrega",
+          "id": "025c1adf-d7f6-4521-b959-b9576946de34",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "85c0902d-ca01-4633-be7f-a0631aab1743",
+              "components": [
+                {
+                  "length": 56484,
+                  "version": "0",
+                  "etag": "\"81e3defb-e42e-4e75-8c0d-b7162b84ee3d\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "888ee0b7-0890-4d7f-b2e9-6c51810157dc",
+                  "md5": "hoezuEt8MMtJKEmB6YbPGA==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 9937,
+              "version": "0",
+              "etag": "\"bf9854b5-093d-4e6e-a374-c9d9fb4ee2ec\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "7be1d202-778e-4f94-be70-14528007e38a",
+              "md5": "QtRADFVum4asbRWdIR1YFA==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 6163,
+            "x": 572
+          }
+        },
+        {
+          "path": "artboard-14936912-71f2-4a71-8861-41c7d41f1793",
+          "name": "Favoritos",
+          "id": "263f2dee-c544-431e-a94d-6c1e2ec5db85",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "1909e5a7-5f37-4972-afae-d3f9fdaee7a1",
+              "components": [
+                {
+                  "length": 86855,
+                  "version": "0",
+                  "etag": "\"7058edf3-491e-43bb-add1-665dfadb33b6\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "123b2c44-79ed-458e-a2b7-07cf68c7e3c0",
+                  "md5": "zCBlmQohDZferTyQ+GXaHw==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 16039,
+              "version": "0",
+              "etag": "\"85204806-f70b-4473-ba39-c975abe07987\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "e5a0e185-bf21-437e-9a54-d8fab40cd58a",
+              "md5": "D/ZG+C0iKufUTTXQZXcMQg==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 7289,
+            "x": -4
+          }
+        },
+        {
+          "path": "artboard-f05aa920-bbf3-48c7-a719-e7939bdf785d",
+          "name": "iPhone 14 Pro Max – 14",
+          "id": "27a6b30a-021c-4881-9621-a4f7fb230181",
+          "children": [
+            {
+              "path": "graphics",
+              "name": "graphics",
+              "id": "461ef059-035b-4eca-8ce4-2d56592618b3",
+              "components": [
+                {
+                  "length": 191022,
+                  "version": "0",
+                  "etag": "\"c888f613-e950-438e-9dd8-e63710a9fb1a\"",
+                  "path": "graphicContent.agc",
+                  "name": "",
+                  "state": "unmodified",
+                  "id": "8a0c1f4a-9c8b-4256-b0d0-e3159a894b34",
+                  "md5": "PIYaoJ5z/p8mICQ+RNQFJg==",
+                  "type": "application/vnd.adobe.agc.graphicsTree+json",
+                  "rel": "primary"
+                }
+              ]
+            }
+          ],
+          "components": [
+            {
+              "length": 25923,
+              "version": "0",
+              "etag": "\"ee2de3ac-f7d6-4f2c-8380-72fba6861066\"",
+              "path": "thumbnailGraphicContent.png",
+              "name": "thumbnail",
+              "state": "unmodified",
+              "id": "6a52c806-6a3b-4878-b003-61b3c5796c9f",
+              "md5": "s++R3QKqdT+RIw4oyTKkvw==",
+              "type": "image/png",
+              "rel": "thumbnail"
+            }
+          ],
+          "uxdesign#viewport": {
+            "height": 932
+          },
+          "uxdesign#bounds": {
+            "height": 932,
+            "width": 430,
+            "y": 8311,
+            "x": -4
+          }
+        }
+      ]
+    },
+    {
+      "path": "interactions",
+      "name": "interactions",
+      "id": "11addd78-6923-4677-af2f-39848166ebb4",
+      "components": [
+        {
+          "length": 6179,
+          "version": "0",
+          "etag": "\"5f80ca22-b67f-4a91-a448-21651ce216c2\"",
+          "path": "interactions.json",
+          "name": "interactions",
+          "state": "unmodified",
+          "id": "4d9cbfd3-bc8e-4730-b096-429b642b0e42",
+          "md5": "Lfp6lGA04HiVzRe/HfPTWQ==",
+          "type": "application/vnd.adobe.uxdesign.interactions+json",
+          "rel": "primary"
+        }
+      ]
+    },
+    {
+      "path": "resources",
+      "name": "resources",
+      "id": "4ce4bbfb-25f3-44c8-a66f-47a0d864f29e",
+      "components": [
+        {
+          "length": 11702,
+          "md5": "mrhje49cbfwEsb2OuXQKVg==",
+          "width": 150,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"834ab39f-673c-4eef-846d-138f1c138940\"",
+          "path": "2a933564004760315f5a47bf31099bd5",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b",
+            "c339bbb8-e014-4196-9e47-be55819ae686",
+            "c1510ed1-f723-4a20-9a7b-881aec76279b",
+            "f05aa920-bbf3-48c7-a719-e7939bdf785d"
+          ],
+          "name": "",
+          "id": "b2b8dd74-1222-45a1-b271-b4ec0bf20641",
+          "type": "image/webp",
+          "height": 150
+        },
+        {
+          "length": 23478,
+          "md5": "KTqMBLeXYK7N/aynk7lZ/A==",
+          "width": 150,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"038322f4-667f-4edd-bc4a-c7a6375683b1\"",
+          "path": "79a44f436e39514f6e1c24bd384fcf39",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b",
+            "c339bbb8-e014-4196-9e47-be55819ae686",
+            "c1510ed1-f723-4a20-9a7b-881aec76279b",
+            "f05aa920-bbf3-48c7-a719-e7939bdf785d"
+          ],
+          "name": "",
+          "id": "d5df996c-efbd-460e-85d2-0febd4b4e970",
+          "type": "image/webp",
+          "height": 150
+        },
+        {
+          "length": 10090,
+          "md5": "d51yfClH7XdPzjMs0TMLcw==",
+          "width": 150,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"383f6fae-3bad-422b-b248-c912319b29cf\"",
+          "path": "63384c644d77c9e598452ecfdcc2c19f",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b",
+            "c339bbb8-e014-4196-9e47-be55819ae686",
+            "f05aa920-bbf3-48c7-a719-e7939bdf785d"
+          ],
+          "name": "",
+          "id": "ece3d322-d931-493d-ba51-93024d220213",
+          "type": "image/webp",
+          "height": 150
+        },
+        {
+          "length": 15934,
+          "md5": "nDrbe6UchNDM4Go4ouV6Hg==",
+          "width": 150,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"8beee8e7-8b8a-4dff-8000-5f0293702aad\"",
+          "path": "87ed017532ba9eb7ca7d2ac653637d63",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b",
+            "c339bbb8-e014-4196-9e47-be55819ae686",
+            "f05aa920-bbf3-48c7-a719-e7939bdf785d"
+          ],
+          "name": "",
+          "id": "1f10608c-1592-426b-b879-166ee5192fb3",
+          "type": "image/webp",
+          "height": 150
+        },
+        {
+          "length": 10672,
+          "md5": "mMAGaCgeAJh6lI14nwFSpQ==",
+          "width": 150,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"aa1f8514-36ae-4ab4-9a91-dd0819d27766\"",
+          "path": "213a7fc909f32a81a4ced82ea0af3256",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b",
+            "c339bbb8-e014-4196-9e47-be55819ae686",
+            "c1510ed1-f723-4a20-9a7b-881aec76279b",
+            "f05aa920-bbf3-48c7-a719-e7939bdf785d"
+          ],
+          "name": "",
+          "id": "556b9be0-cada-4bb4-9212-ad1c0c941370",
+          "type": "image/webp",
+          "height": 150
+        },
+        {
+          "length": 7540,
+          "md5": "cjCoZgnL1vDOPTAFeAg8UA==",
+          "width": 150,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"ebeb144d-88ff-49bd-a4e6-ea39b3dd207c\"",
+          "path": "e0ad6c0a057e3bfbc9b8600c101f59ed",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b",
+            "c339bbb8-e014-4196-9e47-be55819ae686",
+            "c1510ed1-f723-4a20-9a7b-881aec76279b",
+            "f05aa920-bbf3-48c7-a719-e7939bdf785d"
+          ],
+          "name": "",
+          "id": "d3d7f93b-2a41-47e7-8bc6-6a66d7d1a911",
+          "type": "image/webp",
+          "height": 150
+        },
+        {
+          "length": 6842,
+          "md5": "DKIwXW9c3G58dFwAnSES5A==",
+          "width": 150,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"943a9854-6d82-4b05-ac9a-2b7d46e83031\"",
+          "path": "76c0e8e060a96e636a776e407447deec",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b",
+            "c339bbb8-e014-4196-9e47-be55819ae686",
+            "f05aa920-bbf3-48c7-a719-e7939bdf785d"
+          ],
+          "name": "",
+          "id": "c063dc44-2a24-45d7-81c3-9ab4b5c7a6c9",
+          "type": "image/webp",
+          "height": 150
+        },
+        {
+          "length": 6130,
+          "md5": "8pRuZd+m4Etmavg+EQKDPQ==",
+          "width": 150,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"3b40a052-31fd-4fcb-b005-beb01854e91b\"",
+          "path": "d6589731f0d9d0baf9eaa17f20c283cc",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b",
+            "c339bbb8-e014-4196-9e47-be55819ae686",
+            "f05aa920-bbf3-48c7-a719-e7939bdf785d"
+          ],
+          "name": "",
+          "id": "75062c56-026d-42d0-baae-650fadc1e941",
+          "type": "image/webp",
+          "height": 150
+        },
+        {
+          "length": 21126,
+          "md5": "3XZx4cySr3912wF78irhAA==",
+          "width": 150,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"3972a93a-b82a-4148-8a9c-69f04bfe327c\"",
+          "path": "72fc768d08d09d940115058c94534914",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b",
+            "c339bbb8-e014-4196-9e47-be55819ae686",
+            "c1510ed1-f723-4a20-9a7b-881aec76279b",
+            "f05aa920-bbf3-48c7-a719-e7939bdf785d"
+          ],
+          "name": "",
+          "id": "b6951241-f7ab-4223-953c-837b28c9cacf",
+          "type": "image/webp",
+          "height": 150
+        },
+        {
+          "length": 14058,
+          "md5": "XIbT62FJIcKWZS/9kLf86g==",
+          "width": 164,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"aa370c6a-b80b-4dcd-83a2-3f0a195fa73d\"",
+          "path": "18a21f7a252311b1fd625a4d4576fc7f",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b"
+          ],
+          "name": "",
+          "id": "d167442c-0bd6-47ce-bfab-25fb317382f0",
+          "type": "image/webp",
+          "height": 164
+        },
+        {
+          "length": 14174,
+          "md5": "vXWo9s2hu4cpRjbK1Xd0kA==",
+          "width": 150,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"3b24cc9f-ff65-4ac9-b48f-5a2aecae050d\"",
+          "path": "7e7563d28bc956c4f8c9cb649ac881b8",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b",
+            "c339bbb8-e014-4196-9e47-be55819ae686",
+            "c1510ed1-f723-4a20-9a7b-881aec76279b",
+            "f05aa920-bbf3-48c7-a719-e7939bdf785d"
+          ],
+          "name": "",
+          "id": "4ad1f14e-5c19-4b18-8abb-79644e2b26d0",
+          "type": "image/webp",
+          "height": 150
+        },
+        {
+          "length": 18612,
+          "md5": "A7JcIseVjLYu6ABBKmCHdA==",
+          "width": 150,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"d197fba6-3c4a-4460-939b-3e407ed151ad\"",
+          "path": "0ed9fdef9499dede349befa9b2a29ac8",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b",
+            "c339bbb8-e014-4196-9e47-be55819ae686",
+            "c1510ed1-f723-4a20-9a7b-881aec76279b",
+            "f05aa920-bbf3-48c7-a719-e7939bdf785d"
+          ],
+          "name": "",
+          "id": "e980dfc1-3839-4fd9-9fad-ff8bd546422c",
+          "type": "image/webp",
+          "height": 150
+        },
+        {
+          "length": 9460,
+          "md5": "No5HmvidTD/oY0xxJjUPyQ==",
+          "width": 195,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"ea6f7388-2788-4c34-90c2-38b6cb8aa413\"",
+          "path": "ed0fefe315e98b7fb5f6acc5986188f1",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b"
+          ],
+          "name": "",
+          "id": "dbcd693d-bbc1-42a6-8f94-6dd4945cadc5",
+          "type": "image/webp",
+          "height": 195
+        },
+        {
+          "length": 4322,
+          "md5": "KppuqDsXWPnxWumw7k/rEA==",
+          "width": 164,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"f01165dd-834f-49af-aafd-8728fd472f94\"",
+          "path": "f288b5c6d731b252c047db1b83cc5da4",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b",
+            "c339bbb8-e014-4196-9e47-be55819ae686",
+            "f05aa920-bbf3-48c7-a719-e7939bdf785d"
+          ],
+          "name": "",
+          "id": "5e5a346a-f7dd-456b-ad37-a273b7730101",
+          "type": "image/webp",
+          "height": 164
+        },
+        {
+          "length": 55532,
+          "md5": "w1HuZDnidt/BVQKbh1YNOw==",
+          "width": 398,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"cb8f032c-4e2a-4c09-89e0-d42251a19569\"",
+          "path": "5e07b532b70bac1ddbb6c0ed34da0db1",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b",
+            "c339bbb8-e014-4196-9e47-be55819ae686",
+            "c1510ed1-f723-4a20-9a7b-881aec76279b",
+            "74a4fe46-17ea-4c73-b485-69afa1ffa7fb",
+            "f05aa920-bbf3-48c7-a719-e7939bdf785d"
+          ],
+          "name": "",
+          "id": "d0efbec1-08a1-4d92-8f69-52d3e753e3f9",
+          "type": "image/webp",
+          "height": 398
+        },
+        {
+          "length": 14972,
+          "md5": "T3D16J4wStiT2BDV6PSVXQ==",
+          "width": 164,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"9fe306fa-4ea9-4159-a304-c6db31eb4dc1\"",
+          "path": "01f45e6c7d7e5ee6adccdd23241e96bd",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b"
+          ],
+          "name": "",
+          "id": "8fad1dcf-8f94-4fc2-963b-9f4c4746b113",
+          "type": "image/webp",
+          "height": 164
+        },
+        {
+          "length": 22292,
+          "md5": "vtRhTlYFEbKbN7qfifpHvw==",
+          "width": 150,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"bb6eefd6-ca13-4266-a82a-aee101478eb9\"",
+          "path": "985803e8d14b022619c2ab3005888876",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b",
+            "c339bbb8-e014-4196-9e47-be55819ae686",
+            "c1510ed1-f723-4a20-9a7b-881aec76279b",
+            "f05aa920-bbf3-48c7-a719-e7939bdf785d"
+          ],
+          "name": "",
+          "id": "7b72ba5d-73b8-4ae3-87fc-1d3433292cf6",
+          "type": "image/webp",
+          "height": 150
+        },
+        {
+          "length": 625102,
+          "md5": "P91gcoQ/SdjRfBcpizHY3g==",
+          "width": 694,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"d87759de-33dc-4664-af6c-00ce2fc1b320\"",
+          "path": "e94de7b2ba23e984c89d6b0f409c9c4a",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b"
+          ],
+          "name": "",
+          "id": "4abe7fd6-dae2-45e1-bfb4-8857f5d1ccbf",
+          "type": "image/webp",
+          "height": 458
+        },
+        {
+          "length": 192288,
+          "md5": "6Om+kYZOf69HG68blVbCoQ==",
+          "width": 736,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"9bab0c50-0cb6-4a04-880a-6ccc3ac6a81b\"",
+          "path": "ebcfb54b96dfbd531869ca65411ac827",
+          "uxdesign#containingArtboards": [
+            "902a7cb3-74ba-4322-8c21-4c1f8f20db31"
+          ],
+          "name": "",
+          "id": "5359da2a-d9d7-4c00-88db-6222e735005b",
+          "type": "image/webp",
+          "height": 1394
+        },
+        {
+          "length": 696954,
+          "md5": "qb3cpeiH9iuzuWVV0YZ9Yw==",
+          "width": 808,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"1575aea4-d8c6-4c28-9307-775acdc5d310\"",
+          "path": "3ee084f0b6d92b1ca064f2aea8a5f095",
+          "uxdesign#containingArtboards": [
+            "66bb05be-b785-4e7c-8b89-b299e029c35b"
+          ],
+          "name": "",
+          "id": "0bc3c75c-bbea-4145-b5cb-da22f0f3a2a1",
+          "type": "image/webp",
+          "height": 458
+        },
+        {
+          "length": 247976,
+          "md5": "Zf3qIyQCdsnhYUG7YH+x2A==",
+          "width": 1200,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"ce41ee55-55d2-4772-9632-6ce7628e753a\"",
+          "path": "416ef93c4a0a593d35504c261e3b45d0",
+          "uxdesign#containingArtboards": [
+            "902a7cb3-74ba-4322-8c21-4c1f8f20db31",
+            "561ce03f-112e-496b-87e8-4656271de570"
+          ],
+          "name": "",
+          "id": "5957489e-af3f-4e07-84dc-92e3224ce135",
+          "type": "image/webp",
+          "height": 2272
+        },
+        {
+          "length": 241996,
+          "md5": "XNr8uulsKqlR5AwXDEUXaQ==",
+          "width": 1200,
+          "version": "0",
+          "rel": "primary",
+          "state": "unmodified",
+          "etag": "\"f23055f1-04e4-4099-bc12-9dbc91f90764\"",
+          "path": "b667e385dd2695b0884aad41b8024c76",
+          "uxdesign#containingArtboards": [
+            "1228e7da-6f61-48bf-bddf-993462964cba"
+          ],
+          "name": "",
+          "id": "c1918477-aa9f-4fbd-9eaa-dd9a6dfb6f03",
+          "type": "image/webp",
+          "height": 2272
+        }
+      ]
+    },
+    {
+      "path": "globalResources",
+      "name": "globalResources",
+      "id": "e20980a0-fee0-41cb-9fb9-4ddffed72674",
+      "components": [
+        {
+          "length": 44831,
+          "version": "0",
+          "etag": "\"3f3172e4-9e3b-4634-8cc7-a4178b31f397\"",
+          "path": "globalResources.json",
+          "name": "globalResources",
+          "state": "unmodified",
+          "id": "de2f27fa-af1c-4fb3-896a-02cbaaa7805e",
+          "md5": "NwzSTSDUCX/wQNLrPRYgdQ==",
+          "type": "application/vnd.adobe.uxdesign.globalResources+json",
+          "rel": "primary"
+        }
+      ]
+    }
+  ],
+  "uxdesign#includeSpecs": "false",
+  "name": "Untitled — June 10, 1.28.34 PM",
+  "uxdesign#docID": "eabcd6a3-bc42-4348-a00f-e8f189c3a1d8",
+  "type": "application/vnd.adobe.xd.sharedartifact+dcx",
+  "uxdesign#requirePassword": "false",
+  "uxdesign#version": "2.33",
+  "uxdesign#durableLink": "true",
+  "uxdesign#isNewLinkFormat": "false",
+  "uxdesign#hotspotHints": "true",
+  "uxdesign#fullscreen": "false",
+  "uxdesign#shareModeViewMode": "ShareModeViewModeDesign",
+  "uxdesign#allowComments": "true",
+  "uxdesign#gridVisible": "false",
+  "uxdesign#includeAssets": "false",
+  "uxdesign#homeArtboardType": "Web",
+  "components": [
+    {
+      "length": 34375,
+      "version": "0",
+      "etag": "\"a037ee0b-90de-4f68-97b3-b81b8f57b18a\"",
+      "path": "homeThumbnail.png",
+      "name": "homeThumbnail",
+      "state": "unmodified",
+      "id": "6773285c-7564-46aa-857b-580776b685a1",
+      "md5": "5gQ0hS2AcXRzq5EYfdVk6g==",
+      "type": "image/png",
+      "rel": "rendition"
+    },
+    {
+      "length": 3921,
+      "version": "0",
+      "etag": "\"0306b4b8-c338-456e-bd62-01a5928b904c\"",
+      "path": "META-INF/metadata.xml",
+      "name": "xmp-metadata",
+      "state": "unmodified",
+      "id": "f3f5302b-f9de-4bcd-84ca-d2a36383f500",
+      "md5": "4hfPG6gA2ul3JW/YO+rw1A==",
+      "type": "application/rdf+xml",
+      "rel": "metadata"
+    }
+  ],
+  "uxdesign#orgShare": "false",
+  "uxdesign#gridType": ""
+}

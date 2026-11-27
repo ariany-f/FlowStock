@@ -1,0 +1,379 @@
+[
+  {
+    "index": 1,
+    "id": "a2bb0cce-44d7-420d-a311-c333bd2e0526",
+    "name": "Artboard – 1",
+    "bounds": {
+      "height": 495,
+      "width": 5018,
+      "y": -749,
+      "x": -46
+    },
+    "thumbFile": "01_Artboard – 1.png",
+    "texts": []
+  },
+  {
+    "index": 2,
+    "id": "902a7cb3-74ba-4322-8c21-4c1f8f20db31",
+    "name": "iPhone 14 Pro Max – 9",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": -554,
+      "x": -923
+    },
+    "thumbFile": "02_iPhone 14 Pro Max – 9.png",
+    "texts": []
+  },
+  {
+    "index": 3,
+    "id": "66bb05be-b785-4e7c-8b89-b299e029c35b",
+    "name": "iPhone 14 Pro Max – 13",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": -526,
+      "x": -2781
+    },
+    "thumbFile": "03_iPhone 14 Pro Max – 13.png",
+    "texts": []
+  },
+  {
+    "index": 4,
+    "id": "58ed09d1-1a0b-4052-b17c-9a1f228558bd",
+    "name": "iPhone 14 Pro Max – 2",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": -526,
+      "x": -2083
+    },
+    "thumbFile": "04_iPhone 14 Pro Max – 2.png",
+    "texts": []
+  },
+  {
+    "index": 5,
+    "id": "a394875b-33cf-4737-ac28-a0dfbd8b6e50",
+    "name": "iPhone 14 Pro Max – 4",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": -526,
+      "x": -1539
+    },
+    "thumbFile": "05_iPhone 14 Pro Max – 4.png",
+    "texts": []
+  },
+  {
+    "index": 6,
+    "id": "f1bf9006-eaa4-41fc-8e3d-8899443a1763",
+    "name": "iPhone 14 Pro Max – 3",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 148,
+      "x": 748
+    },
+    "thumbFile": "06_iPhone 14 Pro Max – 3.png",
+    "texts": []
+  },
+  {
+    "index": 7,
+    "id": "39c51816-9a90-4a19-88b1-a629f6dc7884",
+    "name": "iPhone 14 Pro Max – 5",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 528,
+      "x": -2083
+    },
+    "thumbFile": "07_iPhone 14 Pro Max – 5.png",
+    "texts": []
+  },
+  {
+    "index": 8,
+    "id": "561ce03f-112e-496b-87e8-4656271de570",
+    "name": "iPhone 14 Pro Max – 6",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 528,
+      "x": -1503
+    },
+    "thumbFile": "08_iPhone 14 Pro Max – 6.png",
+    "texts": []
+  },
+  {
+    "index": 9,
+    "id": "1228e7da-6f61-48bf-bddf-993462964cba",
+    "name": "iPhone 14 Pro Max – 7",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 528,
+      "x": -923
+    },
+    "thumbFile": "09_iPhone 14 Pro Max – 7.png",
+    "texts": []
+  },
+  {
+    "index": 10,
+    "id": "9c94ec62-1c42-4205-87b7-f6f8e388fab0",
+    "name": "iPhone 14 Pro Max – 1",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 528,
+      "x": -4
+    },
+    "thumbFile": "10_iPhone 14 Pro Max – 1.png",
+    "texts": []
+  },
+  {
+    "index": 11,
+    "id": "628d4544-63e9-4a1f-9716-285f755925ef",
+    "name": "Info da Empresa (Bar)",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 1243,
+      "x": 748
+    },
+    "thumbFile": "11_Info da Empresa (Bar).png",
+    "texts": []
+  },
+  {
+    "index": 12,
+    "id": "08cce365-8ef0-4618-b282-64412ceab424",
+    "name": "Endereço da Empresa (Bar)",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 1243,
+      "x": 1248
+    },
+    "thumbFile": "12_Endereço da Empresa (Bar).png",
+    "texts": []
+  },
+  {
+    "index": 13,
+    "id": "e841b7a1-c212-4bb3-ad82-b289f72ff4d4",
+    "name": "Info do Responsável",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 1243,
+      "x": 1748
+    },
+    "thumbFile": "13_Info do Responsável.png",
+    "texts": []
+  },
+  {
+    "index": 14,
+    "id": "509e2b64-639c-478a-9d00-6477ed67e815",
+    "name": "Verificação de crédito",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 1243,
+      "x": 2248
+    },
+    "thumbFile": "14_Verificação de crédito.png",
+    "texts": []
+  },
+  {
+    "index": 15,
+    "id": "6f29c0d0-01a8-495f-a96b-8b19e23c50de",
+    "name": "Verificação de crédito – 1",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 1243,
+      "x": 2748
+    },
+    "thumbFile": "15_Verificação de crédito – 1.png",
+    "texts": []
+  },
+  {
+    "index": 16,
+    "id": "f8220363-f263-4f87-b0e1-9e63a021f9ae",
+    "name": "Dados para Acesso à Plataforma",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 1243,
+      "x": 3248
+    },
+    "thumbFile": "16_Dados para Acesso à Plataforma.png",
+    "texts": []
+  },
+  {
+    "index": 17,
+    "id": "c339bbb8-e014-4196-9e47-be55819ae686",
+    "name": "iPhone 14 Pro Max – 10",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 1582,
+      "x": -2083
+    },
+    "thumbFile": "17_iPhone 14 Pro Max – 10.png",
+    "texts": []
+  },
+  {
+    "index": 18,
+    "id": "c1510ed1-f723-4a20-9a7b-881aec76279b",
+    "name": "iPhone 14 Pro Max – 11",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 1582,
+      "x": -1503
+    },
+    "thumbFile": "18_iPhone 14 Pro Max – 11.png",
+    "texts": []
+  },
+  {
+    "index": 19,
+    "id": "74a4fe46-17ea-4c73-b485-69afa1ffa7fb",
+    "name": "iPhone 14 Pro Max – 12",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 1582,
+      "x": -923
+    },
+    "thumbFile": "19_iPhone 14 Pro Max – 12.png",
+    "texts": []
+  },
+  {
+    "index": 20,
+    "id": "dc2d5418-b09c-4f2b-aab8-c64bb22b575e",
+    "name": "Fornecedor – 1",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 2761,
+      "x": -4
+    },
+    "thumbFile": "20_Fornecedor – 1.png",
+    "texts": []
+  },
+  {
+    "index": 21,
+    "id": "bab7d118-07a2-457f-8ac6-31d79c48c58d",
+    "name": "iPhone 14 Pro Max – 8",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 3061,
+      "x": -2284
+    },
+    "thumbFile": "21_iPhone 14 Pro Max – 8.png",
+    "texts": []
+  },
+  {
+    "index": 22,
+    "id": "03aa6da0-30c8-429a-854b-2f9281864a89",
+    "name": "Home",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 3887,
+      "x": -4
+    },
+    "thumbFile": "22_Home.png",
+    "texts": []
+  },
+  {
+    "index": 23,
+    "id": "e24317de-4889-488c-8599-61a6305445e2",
+    "name": "Fornecedor",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 3887,
+      "x": 748
+    },
+    "thumbFile": "23_Fornecedor.png",
+    "texts": []
+  },
+  {
+    "index": 24,
+    "id": "75f0aa08-b0a9-48fa-a440-bfebfa21f5b6",
+    "name": "Fornecedor  segunda opção",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 3887,
+      "x": 1318
+    },
+    "thumbFile": "24_Fornecedor  segunda opção.png",
+    "texts": []
+  },
+  {
+    "index": 25,
+    "id": "b8651ee4-58d4-4e54-9c66-e6463e2f4fcf",
+    "name": "Pedidos",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 5112,
+      "x": -4
+    },
+    "thumbFile": "25_Pedidos.png",
+    "texts": []
+  },
+  {
+    "index": 26,
+    "id": "2f51b6c6-b2d4-45bd-bfe6-e1b5643d4998",
+    "name": "Sacola",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 6163,
+      "x": -4
+    },
+    "thumbFile": "26_Sacola.png",
+    "texts": []
+  },
+  {
+    "index": 27,
+    "id": "04018152-3dc6-4849-b5d5-63361d970519",
+    "name": "Sacola / Entrega",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 6163,
+      "x": 572
+    },
+    "thumbFile": "27_Sacola _ Entrega.png",
+    "texts": []
+  },
+  {
+    "index": 28,
+    "id": "14936912-71f2-4a71-8861-41c7d41f1793",
+    "name": "Favoritos",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 7289,
+      "x": -4
+    },
+    "thumbFile": "28_Favoritos.png",
+    "texts": []
+  },
+  {
+    "index": 29,
+    "id": "f05aa920-bbf3-48c7-a719-e7939bdf785d",
+    "name": "iPhone 14 Pro Max – 14",
+    "bounds": {
+      "height": 932,
+      "width": 430,
+      "y": 8311,
+      "x": -4
+    },
+    "thumbFile": "29_iPhone 14 Pro Max – 14.png",
+    "texts": []
+  }
+]

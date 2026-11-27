@@ -1,0 +1,289 @@
+[
+  {
+    "index": 1,
+    "name": "iPhone 14 Pro Max – 2",
+    "texts": [
+      "SEU NOME",
+      "SUA SENHA",
+      "Continue",
+      "SING IN",
+      "Don’t have an account? Sing up",
+      "HI,\nSign in to continue",
+      "I forgot password?"
+    ]
+  },
+  {
+    "index": 2,
+    "name": "iPhone 14 Pro Max – 4",
+    "texts": [
+      "Thank you",
+      "For registering your account",
+      "EXPLORE MENU"
+    ]
+  },
+  {
+    "index": 3,
+    "name": "iPhone 14 Pro Max – 3",
+    "texts": [
+      "SEU NOME",
+      "SUA SENHA",
+      "Continue",
+      "SING IN",
+      "Don’t have an account? Sing up",
+      "HI,\nSign in to continue",
+      "I forgot password?"
+    ]
+  },
+  {
+    "index": 4,
+    "name": "Web 1920 – 16",
+    "texts": []
+  },
+  {
+    "index": 5,
+    "name": "Web 1920 – 17",
+    "texts": []
+  },
+  {
+    "index": 6,
+    "name": "Web 1920 – 18",
+    "texts": []
+  },
+  {
+    "index": 7,
+    "name": "Web 1920 – 23",
+    "texts": []
+  },
+  {
+    "index": 8,
+    "name": "Web 1920 – 19",
+    "texts": []
+  },
+  {
+    "index": 9,
+    "name": "Web 1920 – 30",
+    "texts": []
+  },
+  {
+    "index": 10,
+    "name": "Web 1920 – 31",
+    "texts": []
+  },
+  {
+    "index": 11,
+    "name": "Web 1920 – 42",
+    "texts": []
+  },
+  {
+    "index": 12,
+    "name": "Web 1920 – 14",
+    "texts": []
+  },
+  {
+    "index": 13,
+    "name": "Web 1920 – 24",
+    "texts": []
+  },
+  {
+    "index": 14,
+    "name": "Web 1920 – 27",
+    "texts": []
+  },
+  {
+    "index": 15,
+    "name": "Web 1920 – 43",
+    "texts": []
+  },
+  {
+    "index": 16,
+    "name": "Web 1920 – 15",
+    "texts": [
+      "FLOW\n    STOCK"
+    ]
+  },
+  {
+    "index": 17,
+    "name": "Web 1920 – 32",
+    "texts": [
+      "FLOW\n    STOCK"
+    ]
+  },
+  {
+    "index": 18,
+    "name": "Web 1920 – 33",
+    "texts": [
+      "FLOW\n    STOCK"
+    ]
+  },
+  {
+    "index": 19,
+    "name": "Web 1920 – 44",
+    "texts": [
+      "FLOW\n    STOCK"
+    ]
+  },
+  {
+    "index": 20,
+    "name": "Web 1920 – 20",
+    "texts": []
+  },
+  {
+    "index": 21,
+    "name": "Web 1920 – 25",
+    "texts": []
+  },
+  {
+    "index": 22,
+    "name": "Web 1920 – 28",
+    "texts": []
+  },
+  {
+    "index": 23,
+    "name": "Web 1920 – 45",
+    "texts": []
+  },
+  {
+    "index": 24,
+    "name": "Web 1920 – 21",
+    "texts": [
+      "Brand Color",
+      "As cores da marca devem ser aplicadas de forma consistente, seguindo a paleta oficial definida neste manual, garantindo harmonia visual, legibilidade e reconhecimento imediato em todos os materiais e plataformas.",
+      "Utilizar preferencialmente em elementos de fundo ou componentes secundários, garantindo suavidade e equilíbrio visual.",
+      "Color 1",
+      "Color Mode",
+      "#A8ACAE",
+      "Cor complementar, geralmente aplicada em conjunto com a Color 3, atuando como a segunda cor mais relevante da identidade.",
+      "Color 2",
+      "#092030",
+      "Cor principal da marca, destinada a destacar elementos e informações de maior relevância.",
+      "Color 3",
+      "#FFC700",
+      "Indicada para textos e elementos visuais nos quais a Color 2 não seja adequada, preservando legibilidade e contraste.",
+      "Color 4",
+      "#363636"
+    ]
+  },
+  {
+    "index": 25,
+    "name": "Web 1920 – 34",
+    "texts": [
+      "Brand Color",
+      "As cores da marca devem ser aplicadas de forma consistente, seguindo a paleta oficial definida neste manual, garantindo harmonia visual, legibilidade e reconhecimento imediato em todos os materiais e plataformas.",
+      "Utilizar preferencialmente em elementos de fundo ou componentes secundários, garantindo suavidade e equilíbrio visual.",
+      "Color 1",
+      "Color Mode",
+      "#A8ACAE",
+      "Cor complementar, geralmente aplicada em conjunto com a Color 3, atuando como a segunda cor mais relevante da identidade.",
+      "Color 2",
+      "#092030",
+      "Cor principal da marca, destinada a destacar elementos e informações de maior relevância.",
+      "Color 3",
+      "#FFC700",
+      "Indicada para textos e elementos visuais nos quais a Color 2 não seja adequada, preservando legibilidade e contraste.",
+      "Color 4",
+      "#363636"
+    ]
+  },
+  {
+    "index": 26,
+    "name": "Web 1920 – 35",
+    "texts": [
+      "Brand Color",
+      "As cores da marca devem ser aplicadas de forma consistente, seguindo a paleta oficial definida neste manual, garantindo harmonia visual, legibilidade e reconhecimento imediato em todos os materiais e plataformas.",
+      "Utilizar preferencialmente em elementos de fundo ou componentes secundários, garantindo suavidade e equilíbrio visual.",
+      "Color 1",
+      "Color Mode",
+      "#A8ACAE",
+      "Cor complementar, geralmente aplicada em conjunto com a Color 3, atuando como a segunda cor mais relevante da identidade.",
+      "Color 2",
+      "#092030",
+      "Cor principal da marca, destinada a destacar elementos e informações de maior relevância.",
+      "Color 3",
+      "#FFC700",
+      "Indicada para textos e elementos visuais nos quais a Color 2 não seja adequada, preservando legibilidade e contraste.",
+      "Color 4",
+      "#363636"
+    ]
+  },
+  {
+    "index": 27,
+    "name": "Web 1920 – 46",
+    "texts": [
+      "Brand Color",
+      "As cores da marca devem ser aplicadas de forma consistente, seguindo a paleta oficial definida neste manual, garantindo harmonia visual, legibilidade e reconhecimento imediato em todos os materiais e plataformas.",
+      "Utilizar preferencialmente em elementos de fundo ou componentes secundários, garantindo suavidade e equilíbrio visual.",
+      "Color 1",
+      "Color Mode",
+      "#A8ACAE",
+      "Cor complementar, geralmente aplicada em conjunto com a Color 3, atuando como a segunda cor mais relevante da identidade.",
+      "Color 2",
+      "#092030",
+      "Cor principal da marca, destinada a destacar elementos e informações de maior relevância.",
+      "Color 3",
+      "#FFC700",
+      "Indicada para textos e elementos visuais nos quais a Color 2 não seja adequada, preservando legibilidade e contraste.",
+      "Color 4",
+      "#363636"
+    ]
+  },
+  {
+    "index": 28,
+    "name": "Web 1920 – 22",
+    "texts": []
+  },
+  {
+    "index": 29,
+    "name": "Web 1920 – 36",
+    "texts": []
+  },
+  {
+    "index": 30,
+    "name": "Web 1920 – 38",
+    "texts": []
+  },
+  {
+    "index": 31,
+    "name": "Web 1920 – 47",
+    "texts": []
+  },
+  {
+    "index": 32,
+    "name": "Web 1920 – 29",
+    "texts": []
+  },
+  {
+    "index": 33,
+    "name": "Web 1920 – 37",
+    "texts": []
+  },
+  {
+    "index": 34,
+    "name": "Web 1920 – 39",
+    "texts": []
+  },
+  {
+    "index": 35,
+    "name": "Web 1920 – 48",
+    "texts": []
+  },
+  {
+    "index": 36,
+    "name": "Web 1920 – 13",
+    "texts": []
+  },
+  {
+    "index": 37,
+    "name": "Web 1920 – 40",
+    "texts": []
+  },
+  {
+    "index": 38,
+    "name": "Web 1920 – 41",
+    "texts": []
+  },
+  {
+    "index": 39,
+    "name": "Web 1920 – 49",
+    "texts": []
+  }
+]

@@ -1,0 +1,436 @@
+[
+  {
+    "index": 1,
+    "name": "Artboard – 1",
+    "texts": [
+      "Início",
+      "Cadastro",
+      "Validação de Crédito",
+      "Menu",
+      "Busca de Produtos",
+      "Carrinho",
+      "Entrega",
+      "Confirmação de Pedido",
+      "Pagamento",
+      "Perfil e Suporte"
+    ]
+  },
+  {
+    "index": 2,
+    "name": "iPhone 14 Pro Max – 9",
+    "texts": [
+      "Thank you",
+      "For registering your account",
+      "EXPLORE MENU"
+    ]
+  },
+  {
+    "index": 3,
+    "name": "iPhone 14 Pro Max – 13",
+    "texts": [
+      "Bar 01",
+      "Últimos pedidos",
+      "Favoritas",
+      "Ambev",
+      "TopBeer",
+      "Breja’s",
+      "Proibida"
+    ]
+  },
+  {
+    "index": 4,
+    "name": "iPhone 14 Pro Max – 2",
+    "texts": [
+      "SEU NOME",
+      "SUA SENHA",
+      "Continue",
+      "SING IN",
+      "Don’t have an account? Sing up",
+      "HI,\nSign in to continue",
+      "I forgot password?"
+    ]
+  },
+  {
+    "index": 5,
+    "name": "iPhone 14 Pro Max – 4",
+    "texts": [
+      "Thank you",
+      "For registering your account",
+      "EXPLORE MENU"
+    ]
+  },
+  {
+    "index": 6,
+    "name": "iPhone 14 Pro Max – 3",
+    "texts": [
+      "Login",
+      "Email",
+      "Senha",
+      "Esqueci minha senha"
+    ]
+  },
+  {
+    "index": 7,
+    "name": "iPhone 14 Pro Max – 5",
+    "texts": [
+      "SEU NOME",
+      "SUA SENHA",
+      "Continue",
+      "SING IN",
+      "Don’t have an account? Sing up",
+      "HI,\nSign in to continue",
+      "I forgot password?"
+    ]
+  },
+  {
+    "index": 8,
+    "name": "iPhone 14 Pro Max – 6",
+    "texts": [
+      "Thank you",
+      "For registering your account",
+      "EXPLORE MENU",
+      "Continue"
+    ]
+  },
+  {
+    "index": 9,
+    "name": "iPhone 14 Pro Max – 7",
+    "texts": [
+      "Thank you",
+      "For registering your account",
+      "EXPLORE MENU"
+    ]
+  },
+  {
+    "index": 10,
+    "name": "iPhone 14 Pro Max – 1",
+    "texts": [
+      "Bem-\nVindo!",
+      "Criar conta",
+      "Login"
+    ]
+  },
+  {
+    "index": 11,
+    "name": "Info da Empresa (Bar)",
+    "texts": [
+      "Crie uma conta",
+      "CNPJ",
+      "Inscrição Estadual",
+      "Etapa 01 de 06",
+      "Razão Social",
+      "Nome Fantasia",
+      "Tipo de Estabelecimento",
+      "Horário de funcionamento \ne recebimento de mercadorias",
+      "Próximo"
+    ]
+  },
+  {
+    "index": 12,
+    "name": "Endereço da Empresa (Bar)",
+    "texts": [
+      "Crie uma conta",
+      "Número",
+      "Bairro",
+      "Etapa 02 de 06",
+      "CEP",
+      "Nome da Rua",
+      "Cidade",
+      "Compl",
+      "UF",
+      "Ponto de referência",
+      "Próximo"
+    ]
+  },
+  {
+    "index": 13,
+    "name": "Info do Responsável",
+    "texts": [
+      "Crie uma conta",
+      "CPF",
+      "Telefone comercial",
+      "Etapa 03 de 06",
+      "Nome",
+      "Cargo",
+      "Email corporativo",
+      "Contato para entregas",
+      "Próximo"
+    ]
+  },
+  {
+    "index": 14,
+    "name": "Verificação de crédito",
+    "texts": [
+      "Crie uma conta",
+      "Etapa 04 de 06",
+      "Autorização para análise de crédito",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "Próximo"
+    ]
+  },
+  {
+    "index": 15,
+    "name": "Verificação de crédito – 1",
+    "texts": [
+      "Crie uma conta",
+      "Etapa 05 de 06",
+      "Comprovante de \nendereço da empresa",
+      "Certidões negativas \n(opcional, automatizado via APIs)",
+      "Tempo de atividade do negócio",
+      "Faturamento médio mensal \n(auto declarado ou por faixa)",
+      "Próximo"
+    ]
+  },
+  {
+    "index": 16,
+    "name": "Dados para Acesso à Plataforma",
+    "texts": [
+      "Crie uma conta",
+      "Confirmação de senha",
+      "Aceite dos termos de \nuso e política de privacidade",
+      "Etapa 06 de 06",
+      "E-mail de acesso",
+      "Senha",
+      "Finalizar"
+    ]
+  },
+  {
+    "index": 17,
+    "name": "iPhone 14 Pro Max – 10",
+    "texts": [
+      "Bar 01",
+      "Favorito 01",
+      "Ambev",
+      "Lorem Ipsum is simply dummy",
+      "4.8",
+      "Tempo médio 1 dia",
+      "Peça novamente",
+      "Heineken - 600ml",
+      "Adicionar na sacola",
+      "R$250,00",
+      "+",
+      "-",
+      "Uni R$10,00",
+      "25",
+      "Destaques"
+    ]
+  },
+  {
+    "index": 18,
+    "name": "iPhone 14 Pro Max – 11",
+    "texts": [
+      "Bar 01",
+      "Antarctica - 350ml",
+      "R$5,00",
+      "+ 6 un.",
+      "+ 12 un.",
+      "+ 15 un.",
+      "1",
+      "+",
+      "-",
+      "Que tal pedir também?",
+      "Adicionar (1) R$5,00"
+    ]
+  },
+  {
+    "index": 19,
+    "name": "iPhone 14 Pro Max – 12",
+    "texts": [
+      "Bar 01",
+      "Antarctica - 350ml",
+      "R$5,00",
+      "+",
+      "-",
+      "1",
+      "Localização",
+      "Pagamento",
+      "Confirmação",
+      "FAZER PEDIDO",
+      "Frete: R$7,00"
+    ]
+  },
+  {
+    "index": 20,
+    "name": "Fornecedor – 1",
+    "texts": [
+      "Bar 01",
+      "Favorito 01",
+      "Lorem Ipsum is simply dummy",
+      "Nota",
+      "Produto 01",
+      "Produto 02",
+      "Produto 03",
+      "Produto 04",
+      "Produto 05",
+      "Produto 06",
+      "Produtos",
+      "Destaques",
+      "Peça novamente",
+      "Adicionar na sacola",
+      "IMG",
+      "Tempo médio"
+    ]
+  },
+  {
+    "index": 21,
+    "name": "iPhone 14 Pro Max – 8",
+    "texts": [
+      "Continue",
+      "Bar 01",
+      "Don’t have an account? Sing up",
+      "I forgot password?",
+      "Favorito 01",
+      "Lorem Ipsum is simply dummy",
+      "Nota",
+      "Tempo médio",
+      "Produto 01",
+      "Peça novamente",
+      "Adicionar na sacola"
+    ]
+  },
+  {
+    "index": 22,
+    "name": "Home",
+    "texts": [
+      "Bar 01",
+      "Favorito 01",
+      "Favorito 02",
+      "Favorito 03",
+      "Favorito 04",
+      "Favorito 05",
+      "Ver mais",
+      "Banners",
+      "Últimos pedidos",
+      "Promoções",
+      "LOGO"
+    ]
+  },
+  {
+    "index": 23,
+    "name": "Fornecedor",
+    "texts": [
+      "Bar 01",
+      "Favorito 01",
+      "Lorem Ipsum is simply dummy",
+      "Nota",
+      "Produto 01",
+      "Produto 02",
+      "Produto 03",
+      "Produto 04",
+      "Produto 05",
+      "Produto 06",
+      "Produtos",
+      "Destaques",
+      "Peça novamente",
+      "Adicionar na sacola",
+      "IMG",
+      "Tempo médio"
+    ]
+  },
+  {
+    "index": 24,
+    "name": "Fornecedor  segunda opção",
+    "texts": [
+      "Produto 01",
+      "Produto 02",
+      "Produto 03",
+      "Produto 04",
+      "Produto 05",
+      "Produto 06",
+      "Produtos",
+      "Destaques",
+      "Peça novamente",
+      "Lorem Ipsum is simply dummy",
+      "Adicionar na sacola",
+      "IMG",
+      "Banners",
+      "Favorito 01",
+      "Nota",
+      "Entrega em",
+      "Frete",
+      "Pagamento"
+    ]
+  },
+  {
+    "index": 25,
+    "name": "Pedidos",
+    "texts": [
+      "Bar 01",
+      "Histórico",
+      "Produto 01",
+      "Peça novamente",
+      "Lorem Ipsum is simply dummy",
+      "Adicionar na sacola",
+      "Pedidos",
+      "Fornecedor",
+      "Nome Fornecedor",
+      "Data / Hora"
+    ]
+  },
+  {
+    "index": 26,
+    "name": "Sacola",
+    "texts": [
+      "Itens adicionados",
+      "Produto 01",
+      "Lorem Ipsum is simply dummy",
+      "Bar 01",
+      "Favorito 01",
+      "Preço",
+      "-   1   +",
+      "Produto 02",
+      "Produto 03",
+      "Destaques",
+      "Adicionar mais itens",
+      "Sacola",
+      "Continuar",
+      "Total"
+    ]
+  },
+  {
+    "index": 27,
+    "name": "Sacola / Entrega",
+    "texts": [
+      "Sacola",
+      "Endereço",
+      "Lorem Ipsum is simply dummy",
+      "Opções de entrega",
+      "Continuar",
+      "Total + entrega"
+    ]
+  },
+  {
+    "index": 28,
+    "name": "Favoritos",
+    "texts": [
+      "Favoritos",
+      "Produtos",
+      "Fornecedor",
+      "Produto 01",
+      "Nome Fornecedor",
+      "Lorem Ipsum is simply dummy",
+      "Adicionar na sacola"
+    ]
+  },
+  {
+    "index": 29,
+    "name": "iPhone 14 Pro Max – 14",
+    "texts": [
+      "Bar 01",
+      "Favorito 01",
+      "Ambev",
+      "Lorem Ipsum is simply dummy",
+      "4.8",
+      "Tempo médio 1 dia",
+      "Peça novamente",
+      "Heineken - 600ml",
+      "Adicionar na sacola",
+      "R$250,00",
+      "+",
+      "-",
+      "Uni R$10,00",
+      "25",
+      "Destaques"
+    ]
+  }
+]

@@ -1,25 +1,46 @@
 {
   "expo": {
-    "name": "AppTesteEntregaCodZero",
-    "slug": "AppTesteEntregaCodZero",
+    "name": "FlowStock - B2B Bebidas & Chopp",
+    "slug": "flowstock",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "O FlowStock precisa da sua localização para encontrar distribuidores de bebidas mais próximos do seu bar."
+      }
     },
     "android": {
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#0D1C28",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false
     },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "O FlowStock precisa da sua localização para encontrar fornecedores e distribuidores de bebidas mais próximos do seu bar."
+        }
+      ]
+    ],
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "title": "FlowStock - B2B Bebidas & Chopp",
+      "name": "FlowStock - B2B Bebidas & Chopp",
+      "shortName": "FlowStock",
+      "description": "FlowStock - Abastecimento Inteligente de Bares e Restaurantes",
+      "backgroundColor": "#0D1C28",
+      "themeColor": "#FFC107"
     }
   }
 }

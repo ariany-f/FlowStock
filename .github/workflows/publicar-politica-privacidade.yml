@@ -1,0 +1,61 @@
+name: Publicar política de privacidade (FTP)
+
+# Converte docs/privacidade.md em HTML e envia por FTP para o site.
+# Configure em Settings > Secrets and variables > Actions:
+#   FTP_SERVER      ex.: ftp.seusite.com.br
+#   FTP_USERNAME    usuário do FTP
+#   FTP_PASSWORD    senha do FTP
+#   FTP_SERVER_DIR  pasta pública no servidor, terminando com / (ex.: public_html/ ou public_html/flowstock/)
+# Opcional (Variables): FTP_PROTOCOL = ftp | ftps (padrão: ftp), FTP_PORT (padrão: 21)
+
+on:
+  push:
+    paths:
+      - docs/privacidade.md
+      - .github/workflows/publicar-politica-privacidade.yml
+  workflow_dispatch:
+
+concurrency:
+  group: publicar-politica-privacidade
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Gerar HTML
+        run: |
+          mkdir -p site
+          npm install --no-save --no-audit --no-fund marked@14
+          node -e '
+            const { marked } = require("marked");
+            const fs = require("fs");
+            const md = fs.readFileSync("docs/privacidade.md", "utf8");
+            const html = `<!DOCTYPE html>
+          <html lang="pt-BR"><head><meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Política de Privacidade — FlowStock</title>
+          <style>body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;max-width:760px;margin:0 auto;padding:32px 20px 64px;line-height:1.6;color:#1f2933}h1{font-size:1.8rem}h2{font-size:1.2rem;margin-top:32px}a{color:#0b5cad}</style>
+          </head><body>${marked.parse(md)}</body></html>`;
+            fs.writeFileSync("site/politica-de-privacidade.html", html);
+          '
+          ls -la site
+
+      - name: Enviar por FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_SERVER_DIR }}
+          protocol: ${{ vars.FTP_PROTOCOL || 'ftp' }}
+          port: ${{ vars.FTP_PORT || 21 }}
+          local-dir: ./site/
+          dangerous-clean-slate: false
+          state-name: .ftp-deploy-politica.json

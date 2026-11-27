@@ -60,3 +60,26 @@ O EAS é o serviço em nuvem que compila os aplicativos Android e iOS sem você 
 - **Android Package:** `com.ariany.flowstock` (Configurado em `app.json`)
 - **iOS Bundle Identifier:** `com.ariany.flowstock` (Configurado em `app.json`)
 - **Versão:** `1.0.0`
+
+---
+
+## 🌐 Publicar os Painéis Web na Vercel
+
+Todos os painéis (App do Bar, Portal do Distribuidor, App do Entregador, Painel Master e Login) saem do **mesmo build web** do Expo. O `vercel.json` na raiz já define tudo:
+
+- **Build:** `npx expo export -p web`
+- **Saída:** `dist`
+
+1. Acesse **[vercel.com/new](https://vercel.com/new)** e importe o repositório `ariany-f/FlowStock`.
+2. Deixe **Framework Preset** como `Other` (as configurações vêm do `vercel.json`) e clique em **Deploy**.
+3. Cada push na `main` publica automaticamente; PRs ganham uma URL de pré-visualização.
+
+Depois do deploy, os painéis ficam em (troque `SEU-DOMINIO` pela URL da Vercel):
+
+| Painel | URL |
+| :--- | :--- |
+| 🍺 App do Bar | `https://SEU-DOMINIO/` |
+| 🏢 Portal do Distribuidor | `https://SEU-DOMINIO/?app=supplier` |
+| 🚚 App do Entregador | `https://SEU-DOMINIO/?app=driver` |
+| 🛡️ Painel Master Admin | `https://SEU-DOMINIO/?app=admin` |
+| 🔐 Login & Cadastro | `https://SEU-DOMINIO/?app=login` |

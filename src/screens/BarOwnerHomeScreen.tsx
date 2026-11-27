@@ -405,12 +405,12 @@ export const BarOwnerHomeScreen: React.FC<BarOwnerHomeScreenProps> = ({
           onPress={() => setShowNotificationsModal(true)}
           activeOpacity={0.7}
           hitSlop={{ top: 10, bottom: 10, left: 10, right: 10 }}
-          accessibilityLabel="Opções e Notificações"
+          accessibilityLabel="Notificações"
         >
           <Ionicons 
-            name={unreadNotificationCount > 0 ? "notifications" : "ellipsis-vertical"} 
+            name={unreadNotificationCount > 0 ? "notifications" : "notifications-outline"} 
             size={22} 
-            color={unreadNotificationCount > 0 ? "#FFC107" : theme.text} 
+            color={unreadNotificationCount > 0 ? "#FFC107" : (isDarkMode ? '#FFFFFF' : '#0D1C28')} 
           />
           {unreadNotificationCount > 0 && (
             <View style={styles.notificationBadge}>

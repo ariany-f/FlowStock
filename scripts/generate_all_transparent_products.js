@@ -101,7 +101,7 @@ async function run() {
   });
 
   // 13. Barril de Inox Chopp
-  await processItem('keg_inox', 'keg_inox.jpg', {
+  await processItem('keg_inox', 'keg_inox_photo.jpg', {
     threshold: 220,
     diffTolerance: 45
   });

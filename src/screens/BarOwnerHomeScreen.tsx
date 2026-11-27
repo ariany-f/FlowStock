@@ -164,7 +164,7 @@ export const BarOwnerHomeScreen: React.FC<BarOwnerHomeScreenProps> = ({
       tag: 'PRONTA ENTREGA',
       ctaText: 'Ver Chopp 50L',
       action: 'chopp',
-      image: require('../../assets/products/keg_inox.jpg'),
+      image: require('../../assets/products/keg_inox_photo.jpg'),
     },
     {
       id: 'b2',

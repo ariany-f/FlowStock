@@ -990,11 +990,13 @@ export const BarOwnerHomeScreen: React.FC<BarOwnerHomeScreenProps> = ({
                 >
                   <Image source={banner.image} style={styles.promoBannerImg} />
                   <View style={styles.promoBannerOverlay}>
-                    <View style={styles.promoBannerBadge}>
-                      <Text style={styles.promoBannerBadgeText}>{banner.tag}</Text>
+                    <View style={styles.promoBannerContent}>
+                      <View style={styles.promoBannerBadge}>
+                        <Text style={styles.promoBannerBadgeText}>{banner.tag}</Text>
+                      </View>
+                      <Text style={styles.promoBannerTitle} numberOfLines={2}>{banner.title}</Text>
+                      <Text style={styles.promoBannerSub} numberOfLines={2}>{banner.subtitle}</Text>
                     </View>
-                    <Text style={styles.promoBannerTitle}>{banner.title}</Text>
-                    <Text style={styles.promoBannerSub}>{banner.subtitle}</Text>
                     <View style={styles.promoBannerCtaBtn}>
                       <Text style={styles.promoBannerCtaText}>{banner.ctaText} →</Text>
                     </View>
@@ -2245,8 +2247,8 @@ function getStyles(theme: ThemeColors, isDarkMode: boolean) {
     marginBottom: 16,
   },
   promoBannerCard: {
-    width: 300,
-    height: 140,
+    width: 315,
+    height: 165,
     borderRadius: 16,
     overflow: 'hidden',
     position: 'relative',
@@ -2269,13 +2271,18 @@ function getStyles(theme: ThemeColors, isDarkMode: boolean) {
     width: '100%',
     height: '100%',
     position: 'absolute',
-    opacity: isDarkMode ? 0.4 : 0.45,
+    opacity: isDarkMode ? 0.38 : 0.42,
   },
   promoBannerOverlay: {
     flex: 1,
-    padding: 14,
-    justifyContent: 'flex-end',
+    paddingHorizontal: 16,
+    paddingVertical: 14,
+    justifyContent: 'space-between',
     backgroundColor: isDarkMode ? 'rgba(5, 18, 30, 0.72)' : 'rgba(7, 22, 36, 0.78)',
+  },
+  promoBannerContent: {
+    flex: 1,
+    justifyContent: 'flex-start',
   },
   promoBannerBadge: {
     alignSelf: 'flex-start',
@@ -2293,6 +2300,7 @@ function getStyles(theme: ThemeColors, isDarkMode: boolean) {
   },
   promoBannerTitle: {
     fontSize: 15,
+    lineHeight: 19,
     fontWeight: 'bold',
     color: '#FFFFFF',
     textShadowColor: 'rgba(0, 0, 0, 0.8)',
@@ -2302,17 +2310,16 @@ function getStyles(theme: ThemeColors, isDarkMode: boolean) {
   promoBannerSub: {
     fontSize: 11.5,
     color: '#F1F5F9',
-    marginTop: 3,
+    marginTop: 4,
     lineHeight: 15,
     textShadowColor: 'rgba(0, 0, 0, 0.8)',
-    textShadowOffset: { width: 0, height: 1 },
     textShadowRadius: 2,
   },
   promoBannerCtaBtn: {
     alignSelf: 'flex-start',
     backgroundColor: '#FFC107',
-    paddingHorizontal: 10,
-    paddingVertical: 5,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
     borderRadius: 6,
     marginTop: 8,
   },
